@@ -1,0 +1,2397 @@
+
+2022-12-01 03:11:27,206 - Model - INFO - PARAMETER ...
+2022-12-01 03:11:27,206 - Model - INFO - Namespace(aug_scale=False, aug_shift=False, batch_size=40, cuda_ops=False, data_dir='./data', decay_rate=0.0001, decay_step=20, epoch=300, gpus=None, group_size=8, init=None, learning_rate=0.001, log_dir=None, log_root='./log', min_val=10, model='repsurf.repsurf_ssg_umb', n_workers=10, num_point=1024, optimizer='Adam', return_center=True, return_dist=True, return_polar=False, scheduler='step', seed=2800, umb_pool='sum')
+2022-12-01 03:11:27,206 - Model - INFO - Load dataset ...
+2022-12-01 03:11:32,670 - Model - INFO - No existing model, starting training from scratch...
+2022-12-01 03:11:32,673 - Model - INFO - Start training...
+2022-12-01 03:11:32,673 - Model - INFO - Epoch 1 (1/300):
+2022-12-01 03:20:23,530 - Model - INFO - Train Instance Accuracy: 44.45, Loss: 1.888460
+2022-12-01 03:20:23,531 - Model - INFO - Epoch 2 (2/300):
+2022-12-01 03:29:13,425 - Model - INFO - Train Instance Accuracy: 56.60, Loss: 1.622270
+2022-12-01 03:29:13,425 - Model - INFO - Epoch 3 (3/300):
+2022-12-01 03:38:03,181 - Model - INFO - Train Instance Accuracy: 62.67, Loss: 1.501882
+2022-12-01 03:38:03,182 - Model - INFO - Epoch 4 (4/300):
+2022-12-01 03:46:53,657 - Model - INFO - Train Instance Accuracy: 65.45, Loss: 1.438763
+2022-12-01 03:46:53,657 - Model - INFO - Epoch 5 (5/300):
+2022-12-01 03:55:42,222 - Model - INFO - Train Instance Accuracy: 68.02, Loss: 1.379316
+2022-12-01 03:55:42,223 - Model - INFO - Epoch 6 (6/300):
+2022-12-01 04:04:29,748 - Model - INFO - Train Instance Accuracy: 68.81, Loss: 1.352183
+2022-12-01 04:04:29,748 - Model - INFO - Epoch 7 (7/300):
+2022-12-01 04:13:19,302 - Model - INFO - Train Instance Accuracy: 70.04, Loss: 1.328523
+2022-12-01 04:13:19,302 - Model - INFO - Epoch 8 (8/300):
+2022-12-01 04:22:05,741 - Model - INFO - Train Instance Accuracy: 71.11, Loss: 1.309183
+2022-12-01 04:22:05,741 - Model - INFO - Epoch 9 (9/300):
+2022-12-01 04:30:55,118 - Model - INFO - Train Instance Accuracy: 72.00, Loss: 1.282112
+2022-12-01 04:30:55,118 - Model - INFO - Epoch 10 (10/300):
+2022-12-01 04:39:42,022 - Model - INFO - Train Instance Accuracy: 72.57, Loss: 1.274754
+2022-12-01 04:39:42,022 - Model - INFO - Epoch 11 (11/300):
+2022-12-01 04:48:26,406 - Model - INFO - Train Instance Accuracy: 73.04, Loss: 1.261500
+2022-12-01 04:52:49,741 - Model - INFO - Test Single Accuracy: 67.83
+2022-12-01 04:52:49,741 - Model - INFO - Best Single Accuracy: 67.83
+2022-12-01 04:52:49,741 - Model - INFO - Test Vote Accuracy: 68.49
+2022-12-01 04:52:49,741 - Model - INFO - Best Vote Accuracy: 68.49
+2022-12-01 04:52:49,741 - Model - INFO - Test Class Accuracy: 67.15
+2022-12-01 04:52:49,741 - Model - INFO - Best Class Accuracy: 67.15
+2022-12-01 04:52:49,741 - Model - INFO - Save model...
+2022-12-01 04:52:49,741 - Model - INFO - Saving at /home/chenru/wuwei/RepSurf/classification/log/ScanObjectNN/2022-12-01_03-11/checkpoints/best_model.pth
+2022-12-01 04:52:50,015 - Model - INFO - Epoch 12 (12/300):
+2022-12-01 05:01:40,530 - Model - INFO - Train Instance Accuracy: 74.07, Loss: 1.245617
+2022-12-01 05:06:04,030 - Model - INFO - Test Single Accuracy: 68.22
+2022-12-01 05:06:04,030 - Model - INFO - Best Single Accuracy: 68.22
+2022-12-01 05:06:04,030 - Model - INFO - Test Vote Accuracy: 68.42
+2022-12-01 05:06:04,030 - Model - INFO - Best Vote Accuracy: 68.49
+2022-12-01 05:06:04,031 - Model - INFO - Test Class Accuracy: 63.42
+2022-12-01 05:06:04,031 - Model - INFO - Best Class Accuracy: 67.15
+2022-12-01 05:06:04,031 - Model - INFO - Epoch 13 (13/300):
+2022-12-01 05:14:52,821 - Model - INFO - Train Instance Accuracy: 74.45, Loss: 1.229159
+2022-12-01 05:19:14,449 - Model - INFO - Test Single Accuracy: 68.77
+2022-12-01 05:19:14,450 - Model - INFO - Best Single Accuracy: 68.77
+2022-12-01 05:19:14,450 - Model - INFO - Test Vote Accuracy: 68.95
+2022-12-01 05:19:14,450 - Model - INFO - Best Vote Accuracy: 68.95
+2022-12-01 05:19:14,450 - Model - INFO - Test Class Accuracy: 67.60
+2022-12-01 05:19:14,450 - Model - INFO - Best Class Accuracy: 67.60
+2022-12-01 05:19:14,450 - Model - INFO - Save model...
+2022-12-01 05:19:14,450 - Model - INFO - Saving at /home/chenru/wuwei/RepSurf/classification/log/ScanObjectNN/2022-12-01_03-11/checkpoints/best_model.pth
+2022-12-01 05:19:15,028 - Model - INFO - Epoch 14 (14/300):
+2022-12-01 05:28:03,395 - Model - INFO - Train Instance Accuracy: 75.06, Loss: 1.211521
+2022-12-01 05:32:23,456 - Model - INFO - Test Single Accuracy: 69.64
+2022-12-01 05:32:23,456 - Model - INFO - Best Single Accuracy: 69.64
+2022-12-01 05:32:23,456 - Model - INFO - Test Vote Accuracy: 69.78
+2022-12-01 05:32:23,456 - Model - INFO - Best Vote Accuracy: 69.78
+2022-12-01 05:32:23,456 - Model - INFO - Test Class Accuracy: 67.70
+2022-12-01 05:32:23,457 - Model - INFO - Best Class Accuracy: 67.70
+2022-12-01 05:32:23,457 - Model - INFO - Save model...
+2022-12-01 05:32:23,457 - Model - INFO - Saving at /home/chenru/wuwei/RepSurf/classification/log/ScanObjectNN/2022-12-01_03-11/checkpoints/best_model.pth
+2022-12-01 05:32:24,322 - Model - INFO - Epoch 15 (15/300):
+2022-12-01 05:41:09,829 - Model - INFO - Train Instance Accuracy: 75.50, Loss: 1.201982
+2022-12-01 05:45:30,156 - Model - INFO - Test Single Accuracy: 72.24
+2022-12-01 05:45:30,157 - Model - INFO - Best Single Accuracy: 72.24
+2022-12-01 05:45:30,157 - Model - INFO - Test Vote Accuracy: 73.39
+2022-12-01 05:45:30,157 - Model - INFO - Best Vote Accuracy: 73.39
+2022-12-01 05:45:30,157 - Model - INFO - Test Class Accuracy: 72.43
+2022-12-01 05:45:30,157 - Model - INFO - Best Class Accuracy: 72.43
+2022-12-01 05:45:30,157 - Model - INFO - Save model...
+2022-12-01 05:45:30,157 - Model - INFO - Saving at /home/chenru/wuwei/RepSurf/classification/log/ScanObjectNN/2022-12-01_03-11/checkpoints/best_model.pth
+2022-12-01 05:45:30,749 - Model - INFO - Epoch 16 (16/300):
+2022-12-01 05:54:19,724 - Model - INFO - Train Instance Accuracy: 76.19, Loss: 1.186716
+2022-12-01 05:58:45,760 - Model - INFO - Test Single Accuracy: 68.46
+2022-12-01 05:58:45,761 - Model - INFO - Best Single Accuracy: 72.24
+2022-12-01 05:58:45,761 - Model - INFO - Test Vote Accuracy: 69.47
+2022-12-01 05:58:45,761 - Model - INFO - Best Vote Accuracy: 73.39
+2022-12-01 05:58:45,761 - Model - INFO - Test Class Accuracy: 67.48
+2022-12-01 05:58:45,761 - Model - INFO - Best Class Accuracy: 72.43
+2022-12-01 05:58:45,761 - Model - INFO - Epoch 17 (17/300):
+2022-12-01 06:07:37,018 - Model - INFO - Train Instance Accuracy: 76.46, Loss: 1.187973
+2022-12-01 06:12:01,693 - Model - INFO - Test Single Accuracy: 70.82
+2022-12-01 06:12:01,693 - Model - INFO - Best Single Accuracy: 72.24
+2022-12-01 06:12:01,693 - Model - INFO - Test Vote Accuracy: 71.20
+2022-12-01 06:12:01,693 - Model - INFO - Best Vote Accuracy: 73.39
+2022-12-01 06:12:01,693 - Model - INFO - Test Class Accuracy: 68.38
+2022-12-01 06:12:01,693 - Model - INFO - Best Class Accuracy: 72.43
+2022-12-01 06:12:01,693 - Model - INFO - Epoch 18 (18/300):
+2022-12-01 06:20:57,007 - Model - INFO - Train Instance Accuracy: 76.61, Loss: 1.178666
+2022-12-01 06:25:23,260 - Model - INFO - Test Single Accuracy: 67.07
+2022-12-01 06:25:23,260 - Model - INFO - Best Single Accuracy: 72.24
+2022-12-01 06:25:23,260 - Model - INFO - Test Vote Accuracy: 67.14
+2022-12-01 06:25:23,260 - Model - INFO - Best Vote Accuracy: 73.39
+2022-12-01 06:25:23,260 - Model - INFO - Test Class Accuracy: 66.26
+2022-12-01 06:25:23,260 - Model - INFO - Best Class Accuracy: 72.43
+2022-12-01 06:25:23,260 - Model - INFO - Epoch 19 (19/300):
+2022-12-01 06:34:19,650 - Model - INFO - Train Instance Accuracy: 77.29, Loss: 1.163907
+2022-12-01 06:38:43,211 - Model - INFO - Test Single Accuracy: 69.50
+2022-12-01 06:38:43,212 - Model - INFO - Best Single Accuracy: 72.24
+2022-12-01 06:38:43,212 - Model - INFO - Test Vote Accuracy: 69.60
+2022-12-01 06:38:43,212 - Model - INFO - Best Vote Accuracy: 73.39
+2022-12-01 06:38:43,212 - Model - INFO - Test Class Accuracy: 68.72
+2022-12-01 06:38:43,212 - Model - INFO - Best Class Accuracy: 72.43
+2022-12-01 06:38:43,213 - Model - INFO - Epoch 20 (20/300):
+2022-12-01 06:46:42,125 - Model - INFO - Train Instance Accuracy: 79.78, Loss: 1.097701
+2022-12-01 06:49:55,390 - Model - INFO - Test Single Accuracy: 73.66
+2022-12-01 06:49:55,390 - Model - INFO - Best Single Accuracy: 73.66
+2022-12-01 06:49:55,390 - Model - INFO - Test Vote Accuracy: 74.18
+2022-12-01 06:49:55,390 - Model - INFO - Best Vote Accuracy: 74.18
+2022-12-01 06:49:55,390 - Model - INFO - Test Class Accuracy: 70.01
+2022-12-01 06:49:55,390 - Model - INFO - Best Class Accuracy: 72.43
+2022-12-01 06:49:55,390 - Model - INFO - Save model...
+2022-12-01 06:49:55,390 - Model - INFO - Saving at /home/chenru/wuwei/RepSurf/classification/log/ScanObjectNN/2022-12-01_03-11/checkpoints/best_model.pth
+2022-12-01 06:49:56,036 - Model - INFO - Epoch 21 (21/300):
+2022-12-01 06:56:09,971 - Model - INFO - Train Instance Accuracy: 80.57, Loss: 1.084980
+2022-12-01 06:59:14,170 - Model - INFO - Test Single Accuracy: 75.88
+2022-12-01 06:59:14,171 - Model - INFO - Best Single Accuracy: 75.88
+2022-12-01 06:59:14,171 - Model - INFO - Test Vote Accuracy: 76.37
+2022-12-01 06:59:14,171 - Model - INFO - Best Vote Accuracy: 76.37
+2022-12-01 06:59:14,171 - Model - INFO - Test Class Accuracy: 74.89
+2022-12-01 06:59:14,171 - Model - INFO - Best Class Accuracy: 74.89
+2022-12-01 06:59:14,171 - Model - INFO - Save model...
+2022-12-01 06:59:14,171 - Model - INFO - Saving at /home/chenru/wuwei/RepSurf/classification/log/ScanObjectNN/2022-12-01_03-11/checkpoints/best_model.pth
+2022-12-01 06:59:14,776 - Model - INFO - Epoch 22 (22/300):
+2022-12-01 07:05:29,630 - Model - INFO - Train Instance Accuracy: 81.68, Loss: 1.067646
+2022-12-01 07:08:31,909 - Model - INFO - Test Single Accuracy: 76.86
+2022-12-01 07:08:31,910 - Model - INFO - Best Single Accuracy: 76.86
+2022-12-01 07:08:31,910 - Model - INFO - Test Vote Accuracy: 77.86
+2022-12-01 07:08:31,910 - Model - INFO - Best Vote Accuracy: 77.86
+2022-12-01 07:08:31,910 - Model - INFO - Test Class Accuracy: 76.46
+2022-12-01 07:08:31,910 - Model - INFO - Best Class Accuracy: 76.46
+2022-12-01 07:08:31,910 - Model - INFO - Save model...
+2022-12-01 07:08:31,910 - Model - INFO - Saving at /home/chenru/wuwei/RepSurf/classification/log/ScanObjectNN/2022-12-01_03-11/checkpoints/best_model.pth
+2022-12-01 07:08:32,510 - Model - INFO - Epoch 23 (23/300):
+2022-12-01 07:14:50,131 - Model - INFO - Train Instance Accuracy: 81.66, Loss: 1.062332
+2022-12-01 07:17:50,335 - Model - INFO - Test Single Accuracy: 75.54
+2022-12-01 07:17:50,335 - Model - INFO - Best Single Accuracy: 76.86
+2022-12-01 07:17:50,335 - Model - INFO - Test Vote Accuracy: 75.92
+2022-12-01 07:17:50,335 - Model - INFO - Best Vote Accuracy: 77.86
+2022-12-01 07:17:50,335 - Model - INFO - Test Class Accuracy: 73.97
+2022-12-01 07:17:50,335 - Model - INFO - Best Class Accuracy: 76.46
+2022-12-01 07:17:50,335 - Model - INFO - Epoch 24 (24/300):
+2022-12-01 07:24:08,758 - Model - INFO - Train Instance Accuracy: 81.86, Loss: 1.053396
+2022-12-01 07:27:10,531 - Model - INFO - Test Single Accuracy: 77.27
+2022-12-01 07:27:10,531 - Model - INFO - Best Single Accuracy: 77.27
+2022-12-01 07:27:10,531 - Model - INFO - Test Vote Accuracy: 77.27
+2022-12-01 07:27:10,531 - Model - INFO - Best Vote Accuracy: 77.86
+2022-12-01 07:27:10,531 - Model - INFO - Test Class Accuracy: 76.09
+2022-12-01 07:27:10,531 - Model - INFO - Best Class Accuracy: 76.46
+2022-12-01 07:27:10,532 - Model - INFO - Epoch 25 (25/300):
+2022-12-01 07:33:16,409 - Model - INFO - Train Instance Accuracy: 82.26, Loss: 1.048217
+2022-12-01 07:36:13,462 - Model - INFO - Test Single Accuracy: 77.45
+2022-12-01 07:36:13,462 - Model - INFO - Best Single Accuracy: 77.45
+2022-12-01 07:36:13,462 - Model - INFO - Test Vote Accuracy: 77.97
+2022-12-01 07:36:13,463 - Model - INFO - Best Vote Accuracy: 77.97
+2022-12-01 07:36:13,463 - Model - INFO - Test Class Accuracy: 75.20
+2022-12-01 07:36:13,463 - Model - INFO - Best Class Accuracy: 76.46
+2022-12-01 07:36:13,463 - Model - INFO - Save model...
+2022-12-01 07:36:13,463 - Model - INFO - Saving at /home/chenru/wuwei/RepSurf/classification/log/ScanObjectNN/2022-12-01_03-11/checkpoints/best_model.pth
+2022-12-01 07:36:14,080 - Model - INFO - Epoch 26 (26/300):
+2022-12-01 07:42:20,005 - Model - INFO - Train Instance Accuracy: 82.99, Loss: 1.031042
+2022-12-01 07:45:15,003 - Model - INFO - Test Single Accuracy: 75.99
+2022-12-01 07:45:15,004 - Model - INFO - Best Single Accuracy: 77.45
+2022-12-01 07:45:15,004 - Model - INFO - Test Vote Accuracy: 76.41
+2022-12-01 07:45:15,004 - Model - INFO - Best Vote Accuracy: 77.97
+2022-12-01 07:45:15,004 - Model - INFO - Test Class Accuracy: 75.55
+2022-12-01 07:45:15,004 - Model - INFO - Best Class Accuracy: 76.46
+2022-12-01 07:45:15,004 - Model - INFO - Epoch 27 (27/300):
+2022-12-01 07:51:20,940 - Model - INFO - Train Instance Accuracy: 83.46, Loss: 1.025740
+2022-12-01 07:54:19,514 - Model - INFO - Test Single Accuracy: 77.86
+2022-12-01 07:54:19,514 - Model - INFO - Best Single Accuracy: 77.86
+2022-12-01 07:54:19,514 - Model - INFO - Test Vote Accuracy: 78.11
+2022-12-01 07:54:19,514 - Model - INFO - Best Vote Accuracy: 78.11
+2022-12-01 07:54:19,515 - Model - INFO - Test Class Accuracy: 76.94
+2022-12-01 07:54:19,515 - Model - INFO - Best Class Accuracy: 76.94
+2022-12-01 07:54:19,515 - Model - INFO - Save model...
+2022-12-01 07:54:19,515 - Model - INFO - Saving at /home/chenru/wuwei/RepSurf/classification/log/ScanObjectNN/2022-12-01_03-11/checkpoints/best_model.pth
+2022-12-01 07:54:20,123 - Model - INFO - Epoch 28 (28/300):
+2022-12-01 08:00:27,531 - Model - INFO - Train Instance Accuracy: 83.54, Loss: 1.022244
+2022-12-01 08:03:21,489 - Model - INFO - Test Single Accuracy: 73.18
+2022-12-01 08:03:21,489 - Model - INFO - Best Single Accuracy: 77.86
+2022-12-01 08:03:21,489 - Model - INFO - Test Vote Accuracy: 72.76
+2022-12-01 08:03:21,490 - Model - INFO - Best Vote Accuracy: 78.11
+2022-12-01 08:03:21,490 - Model - INFO - Test Class Accuracy: 72.83
+2022-12-01 08:03:21,490 - Model - INFO - Best Class Accuracy: 76.94
+2022-12-01 08:03:21,490 - Model - INFO - Epoch 29 (29/300):
+2022-12-01 08:09:20,619 - Model - INFO - Train Instance Accuracy: 84.12, Loss: 1.007476
+2022-12-01 08:12:16,497 - Model - INFO - Test Single Accuracy: 74.29
+2022-12-01 08:12:16,498 - Model - INFO - Best Single Accuracy: 77.86
+2022-12-01 08:12:16,498 - Model - INFO - Test Vote Accuracy: 74.71
+2022-12-01 08:12:16,498 - Model - INFO - Best Vote Accuracy: 78.11
+2022-12-01 08:12:16,498 - Model - INFO - Test Class Accuracy: 71.91
+2022-12-01 08:12:16,498 - Model - INFO - Best Class Accuracy: 76.94
+2022-12-01 08:12:16,499 - Model - INFO - Epoch 30 (30/300):
+2022-12-01 08:18:20,553 - Model - INFO - Train Instance Accuracy: 84.05, Loss: 1.013129
+2022-12-01 08:21:15,730 - Model - INFO - Test Single Accuracy: 78.90
+2022-12-01 08:21:15,730 - Model - INFO - Best Single Accuracy: 78.90
+2022-12-01 08:21:15,730 - Model - INFO - Test Vote Accuracy: 79.46
+2022-12-01 08:21:15,730 - Model - INFO - Best Vote Accuracy: 79.46
+2022-12-01 08:21:15,730 - Model - INFO - Test Class Accuracy: 77.75
+2022-12-01 08:21:15,730 - Model - INFO - Best Class Accuracy: 77.75
+2022-12-01 08:21:15,730 - Model - INFO - Save model...
+2022-12-01 08:21:15,730 - Model - INFO - Saving at /home/chenru/wuwei/RepSurf/classification/log/ScanObjectNN/2022-12-01_03-11/checkpoints/best_model.pth
+2022-12-01 08:21:16,297 - Model - INFO - Epoch 31 (31/300):
+2022-12-01 08:27:21,992 - Model - INFO - Train Instance Accuracy: 84.40, Loss: 0.998044
+2022-12-01 08:30:19,307 - Model - INFO - Test Single Accuracy: 76.58
+2022-12-01 08:30:19,307 - Model - INFO - Best Single Accuracy: 78.90
+2022-12-01 08:30:19,307 - Model - INFO - Test Vote Accuracy: 77.38
+2022-12-01 08:30:19,308 - Model - INFO - Best Vote Accuracy: 79.46
+2022-12-01 08:30:19,308 - Model - INFO - Test Class Accuracy: 75.89
+2022-12-01 08:30:19,308 - Model - INFO - Best Class Accuracy: 77.75
+2022-12-01 08:30:19,308 - Model - INFO - Epoch 32 (32/300):
+2022-12-01 08:36:26,726 - Model - INFO - Train Instance Accuracy: 84.69, Loss: 0.989991
+2022-12-01 08:39:23,972 - Model - INFO - Test Single Accuracy: 74.77
+2022-12-01 08:39:23,972 - Model - INFO - Best Single Accuracy: 78.90
+2022-12-01 08:39:23,973 - Model - INFO - Test Vote Accuracy: 75.29
+2022-12-01 08:39:23,973 - Model - INFO - Best Vote Accuracy: 79.46
+2022-12-01 08:39:23,973 - Model - INFO - Test Class Accuracy: 73.02
+2022-12-01 08:39:23,973 - Model - INFO - Best Class Accuracy: 77.75
+2022-12-01 08:39:23,973 - Model - INFO - Epoch 33 (33/300):
+2022-12-01 08:45:29,906 - Model - INFO - Train Instance Accuracy: 84.53, Loss: 0.992713
+2022-12-01 08:48:28,386 - Model - INFO - Test Single Accuracy: 76.37
+2022-12-01 08:48:28,387 - Model - INFO - Best Single Accuracy: 78.90
+2022-12-01 08:48:28,387 - Model - INFO - Test Vote Accuracy: 76.79
+2022-12-01 08:48:28,387 - Model - INFO - Best Vote Accuracy: 79.46
+2022-12-01 08:48:28,387 - Model - INFO - Test Class Accuracy: 74.16
+2022-12-01 08:48:28,387 - Model - INFO - Best Class Accuracy: 77.75
+2022-12-01 08:48:28,388 - Model - INFO - Epoch 34 (34/300):
+2022-12-01 08:54:29,769 - Model - INFO - Train Instance Accuracy: 85.42, Loss: 0.973597
+2022-12-01 08:57:28,495 - Model - INFO - Test Single Accuracy: 77.06
+2022-12-01 08:57:28,495 - Model - INFO - Best Single Accuracy: 78.90
+2022-12-01 08:57:28,495 - Model - INFO - Test Vote Accuracy: 77.34
+2022-12-01 08:57:28,495 - Model - INFO - Best Vote Accuracy: 79.46
+2022-12-01 08:57:28,496 - Model - INFO - Test Class Accuracy: 74.42
+2022-12-01 08:57:28,496 - Model - INFO - Best Class Accuracy: 77.75
+2022-12-01 08:57:28,496 - Model - INFO - Epoch 35 (35/300):
+2022-12-01 09:03:30,420 - Model - INFO - Train Instance Accuracy: 85.46, Loss: 0.973728
+2022-12-01 09:06:30,030 - Model - INFO - Test Single Accuracy: 78.76
+2022-12-01 09:06:30,031 - Model - INFO - Best Single Accuracy: 78.90
+2022-12-01 09:06:30,031 - Model - INFO - Test Vote Accuracy: 78.94
+2022-12-01 09:06:30,031 - Model - INFO - Best Vote Accuracy: 79.46
+2022-12-01 09:06:30,031 - Model - INFO - Test Class Accuracy: 77.41
+2022-12-01 09:06:30,032 - Model - INFO - Best Class Accuracy: 77.75
+2022-12-01 09:06:30,032 - Model - INFO - Epoch 36 (36/300):
+2022-12-01 09:12:37,006 - Model - INFO - Train Instance Accuracy: 86.11, Loss: 0.964547
+2022-12-01 09:15:36,825 - Model - INFO - Test Single Accuracy: 78.63
+2022-12-01 09:15:36,825 - Model - INFO - Best Single Accuracy: 78.90
+2022-12-01 09:15:36,825 - Model - INFO - Test Vote Accuracy: 78.90
+2022-12-01 09:15:36,825 - Model - INFO - Best Vote Accuracy: 79.46
+2022-12-01 09:15:36,825 - Model - INFO - Test Class Accuracy: 75.16
+2022-12-01 09:15:36,825 - Model - INFO - Best Class Accuracy: 77.75
+2022-12-01 09:15:36,826 - Model - INFO - Epoch 37 (37/300):
+2022-12-01 09:21:39,163 - Model - INFO - Train Instance Accuracy: 86.72, Loss: 0.946425
+2022-12-01 09:24:38,708 - Model - INFO - Test Single Accuracy: 76.16
+2022-12-01 09:24:38,709 - Model - INFO - Best Single Accuracy: 78.90
+2022-12-01 09:24:38,709 - Model - INFO - Test Vote Accuracy: 76.72
+2022-12-01 09:24:38,709 - Model - INFO - Best Vote Accuracy: 79.46
+2022-12-01 09:24:38,709 - Model - INFO - Test Class Accuracy: 75.99
+2022-12-01 09:24:38,709 - Model - INFO - Best Class Accuracy: 77.75
+2022-12-01 09:24:38,709 - Model - INFO - Epoch 38 (38/300):
+2022-12-01 09:30:41,307 - Model - INFO - Train Instance Accuracy: 86.07, Loss: 0.961917
+2022-12-01 09:33:40,489 - Model - INFO - Test Single Accuracy: 74.08
+2022-12-01 09:33:40,489 - Model - INFO - Best Single Accuracy: 78.90
+2022-12-01 09:33:40,490 - Model - INFO - Test Vote Accuracy: 74.98
+2022-12-01 09:33:40,490 - Model - INFO - Best Vote Accuracy: 79.46
+2022-12-01 09:33:40,490 - Model - INFO - Test Class Accuracy: 73.57
+2022-12-01 09:33:40,490 - Model - INFO - Best Class Accuracy: 77.75
+2022-12-01 09:33:40,490 - Model - INFO - Epoch 39 (39/300):
+2022-12-01 09:39:42,614 - Model - INFO - Train Instance Accuracy: 87.16, Loss: 0.935348
+2022-12-01 09:42:43,222 - Model - INFO - Test Single Accuracy: 78.38
+2022-12-01 09:42:43,222 - Model - INFO - Best Single Accuracy: 78.90
+2022-12-01 09:42:43,222 - Model - INFO - Test Vote Accuracy: 78.80
+2022-12-01 09:42:43,222 - Model - INFO - Best Vote Accuracy: 79.46
+2022-12-01 09:42:43,222 - Model - INFO - Test Class Accuracy: 76.79
+2022-12-01 09:42:43,222 - Model - INFO - Best Class Accuracy: 77.75
+2022-12-01 09:42:43,222 - Model - INFO - Epoch 40 (40/300):
+2022-12-01 09:48:47,012 - Model - INFO - Train Instance Accuracy: 88.51, Loss: 0.893736
+2022-12-01 09:51:45,244 - Model - INFO - Test Single Accuracy: 81.02
+2022-12-01 09:51:45,245 - Model - INFO - Best Single Accuracy: 81.02
+2022-12-01 09:51:45,245 - Model - INFO - Test Vote Accuracy: 81.23
+2022-12-01 09:51:45,245 - Model - INFO - Best Vote Accuracy: 81.23
+2022-12-01 09:51:45,245 - Model - INFO - Test Class Accuracy: 78.92
+2022-12-01 09:51:45,245 - Model - INFO - Best Class Accuracy: 78.92
+2022-12-01 09:51:45,245 - Model - INFO - Save model...
+2022-12-01 09:51:45,245 - Model - INFO - Saving at /home/chenru/wuwei/RepSurf/classification/log/ScanObjectNN/2022-12-01_03-11/checkpoints/best_model.pth
+2022-12-01 09:51:45,825 - Model - INFO - Epoch 41 (41/300):
+2022-12-01 09:57:49,879 - Model - INFO - Train Instance Accuracy: 89.41, Loss: 0.884370
+2022-12-01 10:00:48,856 - Model - INFO - Test Single Accuracy: 79.29
+2022-12-01 10:00:48,857 - Model - INFO - Best Single Accuracy: 81.02
+2022-12-01 10:00:48,857 - Model - INFO - Test Vote Accuracy: 79.91
+2022-12-01 10:00:48,857 - Model - INFO - Best Vote Accuracy: 81.23
+2022-12-01 10:00:48,857 - Model - INFO - Test Class Accuracy: 77.80
+2022-12-01 10:00:48,857 - Model - INFO - Best Class Accuracy: 78.92
+2022-12-01 10:00:48,857 - Model - INFO - Epoch 42 (42/300):
+2022-12-01 10:06:55,506 - Model - INFO - Train Instance Accuracy: 89.26, Loss: 0.883488
+2022-12-01 10:09:53,949 - Model - INFO - Test Single Accuracy: 78.38
+2022-12-01 10:09:53,949 - Model - INFO - Best Single Accuracy: 81.02
+2022-12-01 10:09:53,949 - Model - INFO - Test Vote Accuracy: 78.49
+2022-12-01 10:09:53,949 - Model - INFO - Best Vote Accuracy: 81.23
+2022-12-01 10:09:53,949 - Model - INFO - Test Class Accuracy: 75.65
+2022-12-01 10:09:53,949 - Model - INFO - Best Class Accuracy: 78.92
+2022-12-01 10:09:53,950 - Model - INFO - Epoch 43 (43/300):
+2022-12-01 10:15:57,681 - Model - INFO - Train Instance Accuracy: 89.35, Loss: 0.881455
+2022-12-01 10:18:56,383 - Model - INFO - Test Single Accuracy: 79.98
+2022-12-01 10:18:56,383 - Model - INFO - Best Single Accuracy: 81.02
+2022-12-01 10:18:56,384 - Model - INFO - Test Vote Accuracy: 80.81
+2022-12-01 10:18:56,384 - Model - INFO - Best Vote Accuracy: 81.23
+2022-12-01 10:18:56,384 - Model - INFO - Test Class Accuracy: 78.93
+2022-12-01 10:18:56,384 - Model - INFO - Best Class Accuracy: 78.93
+2022-12-01 10:18:56,384 - Model - INFO - Epoch 44 (44/300):
+2022-12-01 10:25:00,832 - Model - INFO - Train Instance Accuracy: 89.70, Loss: 0.871334
+2022-12-01 10:27:57,938 - Model - INFO - Test Single Accuracy: 81.61
+2022-12-01 10:27:57,938 - Model - INFO - Best Single Accuracy: 81.61
+2022-12-01 10:27:57,938 - Model - INFO - Test Vote Accuracy: 81.51
+2022-12-01 10:27:57,938 - Model - INFO - Best Vote Accuracy: 81.51
+2022-12-01 10:27:57,938 - Model - INFO - Test Class Accuracy: 80.93
+2022-12-01 10:27:57,938 - Model - INFO - Best Class Accuracy: 80.93
+2022-12-01 10:27:57,938 - Model - INFO - Save model...
+2022-12-01 10:27:57,938 - Model - INFO - Saving at /home/chenru/wuwei/RepSurf/classification/log/ScanObjectNN/2022-12-01_03-11/checkpoints/best_model.pth
+2022-12-01 10:27:58,508 - Model - INFO - Epoch 45 (45/300):
+2022-12-01 10:34:01,489 - Model - INFO - Train Instance Accuracy: 89.81, Loss: 0.866461
+2022-12-01 10:36:58,078 - Model - INFO - Test Single Accuracy: 79.22
+2022-12-01 10:36:58,079 - Model - INFO - Best Single Accuracy: 81.61
+2022-12-01 10:36:58,079 - Model - INFO - Test Vote Accuracy: 80.12
+2022-12-01 10:36:58,079 - Model - INFO - Best Vote Accuracy: 81.51
+2022-12-01 10:36:58,079 - Model - INFO - Test Class Accuracy: 76.98
+2022-12-01 10:36:58,079 - Model - INFO - Best Class Accuracy: 80.93
+2022-12-01 10:36:58,079 - Model - INFO - Epoch 46 (46/300):
+2022-12-01 10:43:03,752 - Model - INFO - Train Instance Accuracy: 90.27, Loss: 0.865001
+2022-12-01 10:45:59,658 - Model - INFO - Test Single Accuracy: 81.19
+2022-12-01 10:45:59,659 - Model - INFO - Best Single Accuracy: 81.61
+2022-12-01 10:45:59,659 - Model - INFO - Test Vote Accuracy: 81.12
+2022-12-01 10:45:59,659 - Model - INFO - Best Vote Accuracy: 81.51
+2022-12-01 10:45:59,659 - Model - INFO - Test Class Accuracy: 79.27
+2022-12-01 10:45:59,659 - Model - INFO - Best Class Accuracy: 80.93
+2022-12-01 10:45:59,660 - Model - INFO - Epoch 47 (47/300):
+2022-12-01 10:52:07,246 - Model - INFO - Train Instance Accuracy: 90.14, Loss: 0.860742
+2022-12-01 10:56:38,739 - Model - INFO - Test Single Accuracy: 79.98
+2022-12-01 10:56:38,740 - Model - INFO - Best Single Accuracy: 81.61
+2022-12-01 10:56:38,740 - Model - INFO - Test Vote Accuracy: 80.53
+2022-12-01 10:56:38,740 - Model - INFO - Best Vote Accuracy: 81.51
+2022-12-01 10:56:38,740 - Model - INFO - Test Class Accuracy: 77.79
+2022-12-01 10:56:38,740 - Model - INFO - Best Class Accuracy: 80.93
+2022-12-01 10:56:38,741 - Model - INFO - Epoch 48 (48/300):
+2022-12-01 11:06:51,815 - Model - INFO - Train Instance Accuracy: 89.96, Loss: 0.864615
+2022-12-01 11:11:59,076 - Model - INFO - Test Single Accuracy: 79.98
+2022-12-01 11:11:59,077 - Model - INFO - Best Single Accuracy: 81.61
+2022-12-01 11:11:59,077 - Model - INFO - Test Vote Accuracy: 80.78
+2022-12-01 11:11:59,077 - Model - INFO - Best Vote Accuracy: 81.51
+2022-12-01 11:11:59,077 - Model - INFO - Test Class Accuracy: 80.52
+2022-12-01 11:11:59,077 - Model - INFO - Best Class Accuracy: 80.93
+2022-12-01 11:11:59,078 - Model - INFO - Epoch 49 (49/300):
+2022-12-01 11:22:14,071 - Model - INFO - Train Instance Accuracy: 90.32, Loss: 0.863514
+2022-12-01 11:27:20,849 - Model - INFO - Test Single Accuracy: 81.82
+2022-12-01 11:27:20,849 - Model - INFO - Best Single Accuracy: 81.82
+2022-12-01 11:27:20,850 - Model - INFO - Test Vote Accuracy: 82.62
+2022-12-01 11:27:20,850 - Model - INFO - Best Vote Accuracy: 82.62
+2022-12-01 11:27:20,850 - Model - INFO - Test Class Accuracy: 79.95
+2022-12-01 11:27:20,850 - Model - INFO - Best Class Accuracy: 80.93
+2022-12-01 11:27:20,850 - Model - INFO - Save model...
+2022-12-01 11:27:20,850 - Model - INFO - Saving at /home/chenru/wuwei/RepSurf/classification/log/ScanObjectNN/2022-12-01_03-11/checkpoints/best_model.pth
+2022-12-01 11:27:21,486 - Model - INFO - Epoch 50 (50/300):
+2022-12-01 11:37:35,471 - Model - INFO - Train Instance Accuracy: 91.05, Loss: 0.845228
+2022-12-01 11:42:43,475 - Model - INFO - Test Single Accuracy: 80.81
+2022-12-01 11:42:43,476 - Model - INFO - Best Single Accuracy: 81.82
+2022-12-01 11:42:43,476 - Model - INFO - Test Vote Accuracy: 81.47
+2022-12-01 11:42:43,476 - Model - INFO - Best Vote Accuracy: 82.62
+2022-12-01 11:42:43,476 - Model - INFO - Test Class Accuracy: 79.20
+2022-12-01 11:42:43,476 - Model - INFO - Best Class Accuracy: 80.93
+2022-12-01 11:42:43,476 - Model - INFO - Epoch 51 (51/300):
+2022-12-01 11:53:05,944 - Model - INFO - Train Instance Accuracy: 91.12, Loss: 0.848138
+2022-12-01 11:58:18,132 - Model - INFO - Test Single Accuracy: 80.85
+2022-12-01 11:58:18,132 - Model - INFO - Best Single Accuracy: 81.82
+2022-12-01 11:58:18,132 - Model - INFO - Test Vote Accuracy: 81.51
+2022-12-01 11:58:18,133 - Model - INFO - Best Vote Accuracy: 82.62
+2022-12-01 11:58:18,133 - Model - INFO - Test Class Accuracy: 79.40
+2022-12-01 11:58:18,133 - Model - INFO - Best Class Accuracy: 80.93
+2022-12-01 11:58:18,133 - Model - INFO - Epoch 52 (52/300):
+2022-12-01 12:08:36,378 - Model - INFO - Train Instance Accuracy: 91.05, Loss: 0.842518
+2022-12-01 12:13:45,154 - Model - INFO - Test Single Accuracy: 81.61
+2022-12-01 12:13:45,154 - Model - INFO - Best Single Accuracy: 81.82
+2022-12-01 12:13:45,154 - Model - INFO - Test Vote Accuracy: 81.92
+2022-12-01 12:13:45,154 - Model - INFO - Best Vote Accuracy: 82.62
+2022-12-01 12:13:45,154 - Model - INFO - Test Class Accuracy: 79.35
+2022-12-01 12:13:45,154 - Model - INFO - Best Class Accuracy: 80.93
+2022-12-01 12:13:45,154 - Model - INFO - Epoch 53 (53/300):
+2022-12-01 12:24:04,837 - Model - INFO - Train Instance Accuracy: 91.53, Loss: 0.830495
+2022-12-01 12:29:14,703 - Model - INFO - Test Single Accuracy: 80.19
+2022-12-01 12:29:14,703 - Model - INFO - Best Single Accuracy: 81.82
+2022-12-01 12:29:14,703 - Model - INFO - Test Vote Accuracy: 80.22
+2022-12-01 12:29:14,703 - Model - INFO - Best Vote Accuracy: 82.62
+2022-12-01 12:29:14,703 - Model - INFO - Test Class Accuracy: 76.54
+2022-12-01 12:29:14,703 - Model - INFO - Best Class Accuracy: 80.93
+2022-12-01 12:29:14,703 - Model - INFO - Epoch 54 (54/300):
+2022-12-01 12:39:31,898 - Model - INFO - Train Instance Accuracy: 91.48, Loss: 0.838036
+2022-12-01 12:44:40,356 - Model - INFO - Test Single Accuracy: 82.30
+2022-12-01 12:44:40,357 - Model - INFO - Best Single Accuracy: 82.30
+2022-12-01 12:44:40,357 - Model - INFO - Test Vote Accuracy: 82.30
+2022-12-01 12:44:40,357 - Model - INFO - Best Vote Accuracy: 82.62
+2022-12-01 12:44:40,357 - Model - INFO - Test Class Accuracy: 80.22
+2022-12-01 12:44:40,357 - Model - INFO - Best Class Accuracy: 80.93
+2022-12-01 12:44:40,357 - Model - INFO - Epoch 55 (55/300):
+2022-12-01 12:54:54,725 - Model - INFO - Train Instance Accuracy: 91.56, Loss: 0.834488
+2022-12-01 13:00:04,522 - Model - INFO - Test Single Accuracy: 79.67
+2022-12-01 13:00:04,523 - Model - INFO - Best Single Accuracy: 82.30
+2022-12-01 13:00:04,523 - Model - INFO - Test Vote Accuracy: 79.94
+2022-12-01 13:00:04,523 - Model - INFO - Best Vote Accuracy: 82.62
+2022-12-01 13:00:04,523 - Model - INFO - Test Class Accuracy: 78.70
+2022-12-01 13:00:04,524 - Model - INFO - Best Class Accuracy: 80.93
+2022-12-01 13:00:04,524 - Model - INFO - Epoch 56 (56/300):
+2022-12-01 13:10:21,826 - Model - INFO - Train Instance Accuracy: 91.70, Loss: 0.829795
+2022-12-01 13:15:31,219 - Model - INFO - Test Single Accuracy: 80.43
+2022-12-01 13:15:31,220 - Model - INFO - Best Single Accuracy: 82.30
+2022-12-01 13:15:31,220 - Model - INFO - Test Vote Accuracy: 81.23
+2022-12-01 13:15:31,220 - Model - INFO - Best Vote Accuracy: 82.62
+2022-12-01 13:15:31,220 - Model - INFO - Test Class Accuracy: 80.01
+2022-12-01 13:15:31,220 - Model - INFO - Best Class Accuracy: 80.93
+2022-12-01 13:15:31,220 - Model - INFO - Epoch 57 (57/300):
+2022-12-01 13:25:46,803 - Model - INFO - Train Instance Accuracy: 91.75, Loss: 0.824881
+2022-12-01 13:30:55,098 - Model - INFO - Test Single Accuracy: 79.63
+2022-12-01 13:30:55,098 - Model - INFO - Best Single Accuracy: 82.30
+2022-12-01 13:30:55,098 - Model - INFO - Test Vote Accuracy: 80.33
+2022-12-01 13:30:55,098 - Model - INFO - Best Vote Accuracy: 82.62
+2022-12-01 13:30:55,098 - Model - INFO - Test Class Accuracy: 78.57
+2022-12-01 13:30:55,098 - Model - INFO - Best Class Accuracy: 80.93
+2022-12-01 13:30:55,098 - Model - INFO - Epoch 58 (58/300):
+2022-12-01 13:41:14,853 - Model - INFO - Train Instance Accuracy: 92.17, Loss: 0.820507
+2022-12-01 13:46:24,142 - Model - INFO - Test Single Accuracy: 80.88
+2022-12-01 13:46:24,142 - Model - INFO - Best Single Accuracy: 82.30
+2022-12-01 13:46:24,143 - Model - INFO - Test Vote Accuracy: 81.71
+2022-12-01 13:46:24,143 - Model - INFO - Best Vote Accuracy: 82.62
+2022-12-01 13:46:24,143 - Model - INFO - Test Class Accuracy: 80.42
+2022-12-01 13:46:24,143 - Model - INFO - Best Class Accuracy: 80.93
+2022-12-01 13:46:24,143 - Model - INFO - Epoch 59 (59/300):
+2022-12-01 13:56:41,661 - Model - INFO - Train Instance Accuracy: 92.04, Loss: 0.823381
+2022-12-01 14:01:49,406 - Model - INFO - Test Single Accuracy: 82.27
+2022-12-01 14:01:49,406 - Model - INFO - Best Single Accuracy: 82.30
+2022-12-01 14:01:49,406 - Model - INFO - Test Vote Accuracy: 83.24
+2022-12-01 14:01:49,406 - Model - INFO - Best Vote Accuracy: 83.24
+2022-12-01 14:01:49,406 - Model - INFO - Test Class Accuracy: 81.28
+2022-12-01 14:01:49,407 - Model - INFO - Best Class Accuracy: 81.28
+2022-12-01 14:01:49,407 - Model - INFO - Save model...
+2022-12-01 14:01:49,407 - Model - INFO - Saving at /home/chenru/wuwei/RepSurf/classification/log/ScanObjectNN/2022-12-01_03-11/checkpoints/best_model.pth
+2022-12-01 14:01:50,066 - Model - INFO - Epoch 60 (60/300):
+2022-12-01 14:12:10,913 - Model - INFO - Train Instance Accuracy: 93.74, Loss: 0.781448
+2022-12-01 14:17:20,753 - Model - INFO - Test Single Accuracy: 82.10
+2022-12-01 14:17:20,753 - Model - INFO - Best Single Accuracy: 82.30
+2022-12-01 14:17:20,753 - Model - INFO - Test Vote Accuracy: 82.96
+2022-12-01 14:17:20,753 - Model - INFO - Best Vote Accuracy: 83.24
+2022-12-01 14:17:20,753 - Model - INFO - Test Class Accuracy: 81.63
+2022-12-01 14:17:20,753 - Model - INFO - Best Class Accuracy: 81.63
+2022-12-01 14:17:20,754 - Model - INFO - Epoch 61 (61/300):
+2022-12-01 14:27:37,645 - Model - INFO - Train Instance Accuracy: 93.59, Loss: 0.780679
+2022-12-01 14:32:28,914 - Model - INFO - Test Single Accuracy: 82.58
+2022-12-01 14:32:28,915 - Model - INFO - Best Single Accuracy: 82.58
+2022-12-01 14:32:28,915 - Model - INFO - Test Vote Accuracy: 83.83
+2022-12-01 14:32:28,915 - Model - INFO - Best Vote Accuracy: 83.83
+2022-12-01 14:32:28,915 - Model - INFO - Test Class Accuracy: 82.39
+2022-12-01 14:32:28,916 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 14:32:28,916 - Model - INFO - Save model...
+2022-12-01 14:32:28,916 - Model - INFO - Saving at /home/chenru/wuwei/RepSurf/classification/log/ScanObjectNN/2022-12-01_03-11/checkpoints/best_model.pth
+2022-12-01 14:32:29,589 - Model - INFO - Epoch 62 (62/300):
+2022-12-01 14:42:00,415 - Model - INFO - Train Instance Accuracy: 93.83, Loss: 0.779774
+2022-12-01 14:46:44,194 - Model - INFO - Test Single Accuracy: 82.41
+2022-12-01 14:46:44,194 - Model - INFO - Best Single Accuracy: 82.58
+2022-12-01 14:46:44,194 - Model - INFO - Test Vote Accuracy: 83.21
+2022-12-01 14:46:44,194 - Model - INFO - Best Vote Accuracy: 83.83
+2022-12-01 14:46:44,195 - Model - INFO - Test Class Accuracy: 81.13
+2022-12-01 14:46:44,195 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 14:46:44,195 - Model - INFO - Epoch 63 (63/300):
+2022-12-01 14:56:15,471 - Model - INFO - Train Instance Accuracy: 93.82, Loss: 0.778955
+2022-12-01 15:00:58,003 - Model - INFO - Test Single Accuracy: 82.76
+2022-12-01 15:00:58,003 - Model - INFO - Best Single Accuracy: 82.76
+2022-12-01 15:00:58,003 - Model - INFO - Test Vote Accuracy: 83.28
+2022-12-01 15:00:58,003 - Model - INFO - Best Vote Accuracy: 83.83
+2022-12-01 15:00:58,003 - Model - INFO - Test Class Accuracy: 81.51
+2022-12-01 15:00:58,003 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 15:00:58,003 - Model - INFO - Epoch 64 (64/300):
+2022-12-01 15:10:38,533 - Model - INFO - Train Instance Accuracy: 94.25, Loss: 0.773111
+2022-12-01 15:15:46,881 - Model - INFO - Test Single Accuracy: 83.48
+2022-12-01 15:15:46,881 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 15:15:46,881 - Model - INFO - Test Vote Accuracy: 84.04
+2022-12-01 15:15:46,881 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 15:15:46,881 - Model - INFO - Test Class Accuracy: 81.59
+2022-12-01 15:15:46,881 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 15:15:46,882 - Model - INFO - Save model...
+2022-12-01 15:15:46,882 - Model - INFO - Saving at /home/chenru/wuwei/RepSurf/classification/log/ScanObjectNN/2022-12-01_03-11/checkpoints/best_model.pth
+2022-12-01 15:15:47,514 - Model - INFO - Epoch 65 (65/300):
+2022-12-01 15:26:08,821 - Model - INFO - Train Instance Accuracy: 94.07, Loss: 0.775662
+2022-12-01 15:31:17,329 - Model - INFO - Test Single Accuracy: 82.58
+2022-12-01 15:31:17,329 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 15:31:17,329 - Model - INFO - Test Vote Accuracy: 83.45
+2022-12-01 15:31:17,329 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 15:31:17,329 - Model - INFO - Test Class Accuracy: 81.86
+2022-12-01 15:31:17,329 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 15:31:17,329 - Model - INFO - Epoch 66 (66/300):
+2022-12-01 15:41:34,673 - Model - INFO - Train Instance Accuracy: 94.04, Loss: 0.772073
+2022-12-01 15:46:43,602 - Model - INFO - Test Single Accuracy: 81.61
+2022-12-01 15:46:43,602 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 15:46:43,602 - Model - INFO - Test Vote Accuracy: 82.27
+2022-12-01 15:46:43,602 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 15:46:43,602 - Model - INFO - Test Class Accuracy: 80.66
+2022-12-01 15:46:43,602 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 15:46:43,602 - Model - INFO - Epoch 67 (67/300):
+2022-12-01 15:57:02,010 - Model - INFO - Train Instance Accuracy: 94.53, Loss: 0.763088
+2022-12-01 16:02:08,971 - Model - INFO - Test Single Accuracy: 81.92
+2022-12-01 16:02:08,971 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 16:02:08,971 - Model - INFO - Test Vote Accuracy: 82.79
+2022-12-01 16:02:08,971 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 16:02:08,971 - Model - INFO - Test Class Accuracy: 80.99
+2022-12-01 16:02:08,971 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 16:02:08,971 - Model - INFO - Epoch 68 (68/300):
+2022-12-01 16:12:29,252 - Model - INFO - Train Instance Accuracy: 94.45, Loss: 0.765050
+2022-12-01 16:17:37,705 - Model - INFO - Test Single Accuracy: 81.96
+2022-12-01 16:17:37,705 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 16:17:37,705 - Model - INFO - Test Vote Accuracy: 82.72
+2022-12-01 16:17:37,705 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 16:17:37,705 - Model - INFO - Test Class Accuracy: 80.88
+2022-12-01 16:17:37,705 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 16:17:37,705 - Model - INFO - Epoch 69 (69/300):
+2022-12-01 16:27:55,884 - Model - INFO - Train Instance Accuracy: 94.79, Loss: 0.755805
+2022-12-01 16:33:06,678 - Model - INFO - Test Single Accuracy: 81.51
+2022-12-01 16:33:06,679 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 16:33:06,679 - Model - INFO - Test Vote Accuracy: 83.31
+2022-12-01 16:33:06,679 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 16:33:06,679 - Model - INFO - Test Class Accuracy: 81.50
+2022-12-01 16:33:06,679 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 16:33:06,679 - Model - INFO - Epoch 70 (70/300):
+2022-12-01 16:43:25,977 - Model - INFO - Train Instance Accuracy: 94.61, Loss: 0.758073
+2022-12-01 16:48:33,949 - Model - INFO - Test Single Accuracy: 81.12
+2022-12-01 16:48:33,950 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 16:48:33,950 - Model - INFO - Test Vote Accuracy: 81.71
+2022-12-01 16:48:33,950 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 16:48:33,950 - Model - INFO - Test Class Accuracy: 80.43
+2022-12-01 16:48:33,950 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 16:48:33,950 - Model - INFO - Epoch 71 (71/300):
+2022-12-01 16:58:53,707 - Model - INFO - Train Instance Accuracy: 94.75, Loss: 0.758740
+2022-12-01 17:04:02,841 - Model - INFO - Test Single Accuracy: 81.82
+2022-12-01 17:04:02,841 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 17:04:02,842 - Model - INFO - Test Vote Accuracy: 82.13
+2022-12-01 17:04:02,842 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 17:04:02,842 - Model - INFO - Test Class Accuracy: 80.85
+2022-12-01 17:04:02,842 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 17:04:02,842 - Model - INFO - Epoch 72 (72/300):
+2022-12-01 17:14:21,148 - Model - INFO - Train Instance Accuracy: 94.86, Loss: 0.753108
+2022-12-01 17:19:29,789 - Model - INFO - Test Single Accuracy: 81.05
+2022-12-01 17:19:29,790 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 17:19:29,790 - Model - INFO - Test Vote Accuracy: 81.96
+2022-12-01 17:19:29,790 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 17:19:29,790 - Model - INFO - Test Class Accuracy: 80.16
+2022-12-01 17:19:29,790 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 17:19:29,790 - Model - INFO - Epoch 73 (73/300):
+2022-12-01 17:29:47,147 - Model - INFO - Train Instance Accuracy: 94.75, Loss: 0.758360
+2022-12-01 17:34:55,465 - Model - INFO - Test Single Accuracy: 82.48
+2022-12-01 17:34:55,466 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 17:34:55,466 - Model - INFO - Test Vote Accuracy: 83.14
+2022-12-01 17:34:55,466 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 17:34:55,466 - Model - INFO - Test Class Accuracy: 80.37
+2022-12-01 17:34:55,466 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 17:34:55,466 - Model - INFO - Epoch 74 (74/300):
+2022-12-01 17:45:14,129 - Model - INFO - Train Instance Accuracy: 94.32, Loss: 0.763739
+2022-12-01 17:50:23,193 - Model - INFO - Test Single Accuracy: 82.37
+2022-12-01 17:50:23,193 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 17:50:23,193 - Model - INFO - Test Vote Accuracy: 83.21
+2022-12-01 17:50:23,193 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 17:50:23,193 - Model - INFO - Test Class Accuracy: 81.95
+2022-12-01 17:50:23,193 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 17:50:23,193 - Model - INFO - Epoch 75 (75/300):
+2022-12-01 18:00:42,102 - Model - INFO - Train Instance Accuracy: 95.23, Loss: 0.747311
+2022-12-01 18:05:50,703 - Model - INFO - Test Single Accuracy: 82.17
+2022-12-01 18:05:50,704 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 18:05:50,704 - Model - INFO - Test Vote Accuracy: 83.03
+2022-12-01 18:05:50,704 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 18:05:50,704 - Model - INFO - Test Class Accuracy: 81.91
+2022-12-01 18:05:50,704 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 18:05:50,704 - Model - INFO - Epoch 76 (76/300):
+2022-12-01 18:16:10,263 - Model - INFO - Train Instance Accuracy: 95.33, Loss: 0.744494
+2022-12-01 18:21:19,382 - Model - INFO - Test Single Accuracy: 82.13
+2022-12-01 18:21:19,382 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 18:21:19,382 - Model - INFO - Test Vote Accuracy: 82.55
+2022-12-01 18:21:19,382 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 18:21:19,382 - Model - INFO - Test Class Accuracy: 81.11
+2022-12-01 18:21:19,382 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 18:21:19,383 - Model - INFO - Epoch 77 (77/300):
+2022-12-01 18:31:37,420 - Model - INFO - Train Instance Accuracy: 95.34, Loss: 0.743815
+2022-12-01 18:36:45,964 - Model - INFO - Test Single Accuracy: 81.71
+2022-12-01 18:36:45,964 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 18:36:45,964 - Model - INFO - Test Vote Accuracy: 82.06
+2022-12-01 18:36:45,964 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 18:36:45,965 - Model - INFO - Test Class Accuracy: 81.05
+2022-12-01 18:36:45,965 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 18:36:45,965 - Model - INFO - Epoch 78 (78/300):
+2022-12-01 18:46:52,255 - Model - INFO - Train Instance Accuracy: 95.01, Loss: 0.751478
+2022-12-01 18:51:34,691 - Model - INFO - Test Single Accuracy: 81.23
+2022-12-01 18:51:34,691 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 18:51:34,692 - Model - INFO - Test Vote Accuracy: 82.03
+2022-12-01 18:51:34,692 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 18:51:34,692 - Model - INFO - Test Class Accuracy: 80.12
+2022-12-01 18:51:34,692 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 18:51:34,692 - Model - INFO - Epoch 79 (79/300):
+2022-12-01 19:01:05,904 - Model - INFO - Train Instance Accuracy: 95.12, Loss: 0.746716
+2022-12-01 19:05:49,052 - Model - INFO - Test Single Accuracy: 81.54
+2022-12-01 19:05:49,052 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 19:05:49,052 - Model - INFO - Test Vote Accuracy: 82.69
+2022-12-01 19:05:49,052 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 19:05:49,052 - Model - INFO - Test Class Accuracy: 80.52
+2022-12-01 19:05:49,052 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 19:05:49,053 - Model - INFO - Epoch 80 (80/300):
+2022-12-01 19:15:17,676 - Model - INFO - Train Instance Accuracy: 96.40, Loss: 0.721040
+2022-12-01 19:20:00,757 - Model - INFO - Test Single Accuracy: 82.96
+2022-12-01 19:20:00,758 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 19:20:00,758 - Model - INFO - Test Vote Accuracy: 83.90
+2022-12-01 19:20:00,758 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 19:20:00,758 - Model - INFO - Test Class Accuracy: 81.85
+2022-12-01 19:20:00,758 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 19:20:00,758 - Model - INFO - Epoch 81 (81/300):
+2022-12-01 19:29:59,065 - Model - INFO - Train Instance Accuracy: 96.29, Loss: 0.720069
+2022-12-01 19:35:07,767 - Model - INFO - Test Single Accuracy: 82.72
+2022-12-01 19:35:07,768 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 19:35:07,768 - Model - INFO - Test Vote Accuracy: 83.55
+2022-12-01 19:35:07,768 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 19:35:07,768 - Model - INFO - Test Class Accuracy: 82.30
+2022-12-01 19:35:07,768 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 19:35:07,768 - Model - INFO - Epoch 82 (82/300):
+2022-12-01 19:45:28,252 - Model - INFO - Train Instance Accuracy: 96.46, Loss: 0.719466
+2022-12-01 19:50:37,519 - Model - INFO - Test Single Accuracy: 81.96
+2022-12-01 19:50:37,519 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 19:50:37,519 - Model - INFO - Test Vote Accuracy: 82.96
+2022-12-01 19:50:37,519 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 19:50:37,520 - Model - INFO - Test Class Accuracy: 80.39
+2022-12-01 19:50:37,520 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 19:50:37,520 - Model - INFO - Epoch 83 (83/300):
+2022-12-01 20:00:55,658 - Model - INFO - Train Instance Accuracy: 96.50, Loss: 0.712958
+2022-12-01 20:06:03,886 - Model - INFO - Test Single Accuracy: 82.30
+2022-12-01 20:06:03,887 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 20:06:03,887 - Model - INFO - Test Vote Accuracy: 83.41
+2022-12-01 20:06:03,887 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 20:06:03,887 - Model - INFO - Test Class Accuracy: 81.77
+2022-12-01 20:06:03,887 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 20:06:03,887 - Model - INFO - Epoch 84 (84/300):
+2022-12-01 20:16:24,312 - Model - INFO - Train Instance Accuracy: 96.58, Loss: 0.715342
+2022-12-01 20:21:32,264 - Model - INFO - Test Single Accuracy: 82.44
+2022-12-01 20:21:32,264 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 20:21:32,264 - Model - INFO - Test Vote Accuracy: 83.07
+2022-12-01 20:21:32,264 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 20:21:32,264 - Model - INFO - Test Class Accuracy: 81.00
+2022-12-01 20:21:32,264 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 20:21:32,264 - Model - INFO - Epoch 85 (85/300):
+2022-12-01 20:31:48,692 - Model - INFO - Train Instance Accuracy: 96.31, Loss: 0.716859
+2022-12-01 20:36:58,519 - Model - INFO - Test Single Accuracy: 81.89
+2022-12-01 20:36:58,519 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 20:36:58,519 - Model - INFO - Test Vote Accuracy: 82.89
+2022-12-01 20:36:58,519 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 20:36:58,519 - Model - INFO - Test Class Accuracy: 81.79
+2022-12-01 20:36:58,519 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 20:36:58,520 - Model - INFO - Epoch 86 (86/300):
+2022-12-01 20:47:16,816 - Model - INFO - Train Instance Accuracy: 96.74, Loss: 0.710388
+2022-12-01 20:52:25,707 - Model - INFO - Test Single Accuracy: 82.17
+2022-12-01 20:52:25,708 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 20:52:25,708 - Model - INFO - Test Vote Accuracy: 83.07
+2022-12-01 20:52:25,708 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 20:52:25,708 - Model - INFO - Test Class Accuracy: 81.72
+2022-12-01 20:52:25,708 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 20:52:25,708 - Model - INFO - Epoch 87 (87/300):
+2022-12-01 21:02:48,616 - Model - INFO - Train Instance Accuracy: 96.99, Loss: 0.707050
+2022-12-01 21:06:45,373 - Model - INFO - Test Single Accuracy: 83.34
+2022-12-01 21:06:45,374 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 21:06:45,374 - Model - INFO - Test Vote Accuracy: 84.00
+2022-12-01 21:06:45,374 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 21:06:45,374 - Model - INFO - Test Class Accuracy: 82.33
+2022-12-01 21:06:45,374 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 21:06:45,374 - Model - INFO - Epoch 88 (88/300):
+2022-12-01 21:14:04,967 - Model - INFO - Train Instance Accuracy: 96.31, Loss: 0.720224
+2022-12-01 21:17:43,225 - Model - INFO - Test Single Accuracy: 82.79
+2022-12-01 21:17:43,226 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 21:17:43,226 - Model - INFO - Test Vote Accuracy: 83.28
+2022-12-01 21:17:43,226 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 21:17:43,226 - Model - INFO - Test Class Accuracy: 81.80
+2022-12-01 21:17:43,226 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 21:17:43,226 - Model - INFO - Epoch 89 (89/300):
+2022-12-01 21:25:07,542 - Model - INFO - Train Instance Accuracy: 96.71, Loss: 0.709049
+2022-12-01 21:28:44,262 - Model - INFO - Test Single Accuracy: 82.06
+2022-12-01 21:28:44,263 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 21:28:44,263 - Model - INFO - Test Vote Accuracy: 83.31
+2022-12-01 21:28:44,263 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 21:28:44,263 - Model - INFO - Test Class Accuracy: 82.05
+2022-12-01 21:28:44,263 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 21:28:44,263 - Model - INFO - Epoch 90 (90/300):
+2022-12-01 21:36:06,375 - Model - INFO - Train Instance Accuracy: 97.13, Loss: 0.701951
+2022-12-01 21:39:44,594 - Model - INFO - Test Single Accuracy: 81.89
+2022-12-01 21:39:44,595 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 21:39:44,595 - Model - INFO - Test Vote Accuracy: 82.13
+2022-12-01 21:39:44,595 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 21:39:44,595 - Model - INFO - Test Class Accuracy: 81.36
+2022-12-01 21:39:44,595 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 21:39:44,595 - Model - INFO - Epoch 91 (91/300):
+2022-12-01 21:47:03,657 - Model - INFO - Train Instance Accuracy: 96.82, Loss: 0.708127
+2022-12-01 21:50:42,641 - Model - INFO - Test Single Accuracy: 83.07
+2022-12-01 21:50:42,642 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 21:50:42,642 - Model - INFO - Test Vote Accuracy: 83.17
+2022-12-01 21:50:42,642 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 21:50:42,642 - Model - INFO - Test Class Accuracy: 80.96
+2022-12-01 21:50:42,642 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 21:50:42,642 - Model - INFO - Epoch 92 (92/300):
+2022-12-01 21:58:04,875 - Model - INFO - Train Instance Accuracy: 96.97, Loss: 0.705472
+2022-12-01 22:01:42,312 - Model - INFO - Test Single Accuracy: 82.72
+2022-12-01 22:01:42,312 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 22:01:42,312 - Model - INFO - Test Vote Accuracy: 83.21
+2022-12-01 22:01:42,312 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 22:01:42,312 - Model - INFO - Test Class Accuracy: 81.38
+2022-12-01 22:01:42,312 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 22:01:42,313 - Model - INFO - Epoch 93 (93/300):
+2022-12-01 22:09:04,109 - Model - INFO - Train Instance Accuracy: 96.87, Loss: 0.708988
+2022-12-01 22:12:42,720 - Model - INFO - Test Single Accuracy: 81.99
+2022-12-01 22:12:42,721 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 22:12:42,721 - Model - INFO - Test Vote Accuracy: 82.30
+2022-12-01 22:12:42,721 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 22:12:42,721 - Model - INFO - Test Class Accuracy: 81.79
+2022-12-01 22:12:42,721 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 22:12:42,721 - Model - INFO - Epoch 94 (94/300):
+2022-12-01 22:20:06,098 - Model - INFO - Train Instance Accuracy: 96.79, Loss: 0.708539
+2022-12-01 22:23:45,956 - Model - INFO - Test Single Accuracy: 82.27
+2022-12-01 22:23:45,956 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 22:23:45,956 - Model - INFO - Test Vote Accuracy: 82.69
+2022-12-01 22:23:45,956 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 22:23:45,956 - Model - INFO - Test Class Accuracy: 80.87
+2022-12-01 22:23:45,956 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 22:23:45,956 - Model - INFO - Epoch 95 (95/300):
+2022-12-01 22:30:22,205 - Model - INFO - Train Instance Accuracy: 96.90, Loss: 0.704411
+2022-12-01 22:33:30,757 - Model - INFO - Test Single Accuracy: 82.23
+2022-12-01 22:33:30,757 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 22:33:30,757 - Model - INFO - Test Vote Accuracy: 82.34
+2022-12-01 22:33:30,757 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 22:33:30,757 - Model - INFO - Test Class Accuracy: 80.74
+2022-12-01 22:33:30,757 - Model - INFO - Best Class Accuracy: 82.39
+2022-12-01 22:33:30,757 - Model - INFO - Epoch 96 (96/300):
+2022-12-01 22:39:59,377 - Model - INFO - Train Instance Accuracy: 97.14, Loss: 0.700026
+2022-12-01 22:43:09,503 - Model - INFO - Test Single Accuracy: 82.65
+2022-12-01 22:43:09,503 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 22:43:09,503 - Model - INFO - Test Vote Accuracy: 83.59
+2022-12-01 22:43:09,503 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 22:43:09,503 - Model - INFO - Test Class Accuracy: 82.43
+2022-12-01 22:43:09,503 - Model - INFO - Best Class Accuracy: 82.43
+2022-12-01 22:43:09,504 - Model - INFO - Epoch 97 (97/300):
+2022-12-01 22:49:40,539 - Model - INFO - Train Instance Accuracy: 97.22, Loss: 0.698046
+2022-12-01 22:53:03,260 - Model - INFO - Test Single Accuracy: 82.41
+2022-12-01 22:53:03,260 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 22:53:03,261 - Model - INFO - Test Vote Accuracy: 83.31
+2022-12-01 22:53:03,261 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 22:53:03,261 - Model - INFO - Test Class Accuracy: 81.02
+2022-12-01 22:53:03,261 - Model - INFO - Best Class Accuracy: 82.43
+2022-12-01 22:53:03,261 - Model - INFO - Epoch 98 (98/300):
+2022-12-01 23:00:16,476 - Model - INFO - Train Instance Accuracy: 97.03, Loss: 0.704605
+2022-12-01 23:03:51,344 - Model - INFO - Test Single Accuracy: 83.17
+2022-12-01 23:03:51,344 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 23:03:51,344 - Model - INFO - Test Vote Accuracy: 82.93
+2022-12-01 23:03:51,345 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 23:03:51,345 - Model - INFO - Test Class Accuracy: 81.84
+2022-12-01 23:03:51,345 - Model - INFO - Best Class Accuracy: 82.43
+2022-12-01 23:03:51,345 - Model - INFO - Epoch 99 (99/300):
+2022-12-01 23:11:05,088 - Model - INFO - Train Instance Accuracy: 97.29, Loss: 0.696786
+2022-12-01 23:14:41,158 - Model - INFO - Test Single Accuracy: 82.44
+2022-12-01 23:14:41,158 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 23:14:41,158 - Model - INFO - Test Vote Accuracy: 83.17
+2022-12-01 23:14:41,159 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 23:14:41,159 - Model - INFO - Test Class Accuracy: 81.54
+2022-12-01 23:14:41,159 - Model - INFO - Best Class Accuracy: 82.43
+2022-12-01 23:14:41,159 - Model - INFO - Epoch 100 (100/300):
+2022-12-01 23:21:56,323 - Model - INFO - Train Instance Accuracy: 98.11, Loss: 0.678296
+2022-12-01 23:25:33,402 - Model - INFO - Test Single Accuracy: 83.00
+2022-12-01 23:25:33,402 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 23:25:33,402 - Model - INFO - Test Vote Accuracy: 83.00
+2022-12-01 23:25:33,402 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 23:25:33,403 - Model - INFO - Test Class Accuracy: 80.98
+2022-12-01 23:25:33,403 - Model - INFO - Best Class Accuracy: 82.43
+2022-12-01 23:25:33,403 - Model - INFO - Epoch 101 (101/300):
+2022-12-01 23:32:49,010 - Model - INFO - Train Instance Accuracy: 98.15, Loss: 0.678383
+2022-12-01 23:36:23,381 - Model - INFO - Test Single Accuracy: 83.17
+2022-12-01 23:36:23,381 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 23:36:23,382 - Model - INFO - Test Vote Accuracy: 83.76
+2022-12-01 23:36:23,382 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 23:36:23,382 - Model - INFO - Test Class Accuracy: 81.68
+2022-12-01 23:36:23,382 - Model - INFO - Best Class Accuracy: 82.43
+2022-12-01 23:36:23,382 - Model - INFO - Epoch 102 (102/300):
+2022-12-01 23:43:40,449 - Model - INFO - Train Instance Accuracy: 97.88, Loss: 0.680668
+2022-12-01 23:47:17,401 - Model - INFO - Test Single Accuracy: 83.41
+2022-12-01 23:47:17,402 - Model - INFO - Best Single Accuracy: 83.48
+2022-12-01 23:47:17,402 - Model - INFO - Test Vote Accuracy: 84.04
+2022-12-01 23:47:17,402 - Model - INFO - Best Vote Accuracy: 84.04
+2022-12-01 23:47:17,402 - Model - INFO - Test Class Accuracy: 82.06
+2022-12-01 23:47:17,402 - Model - INFO - Best Class Accuracy: 82.43
+2022-12-01 23:47:17,402 - Model - INFO - Save model...
+2022-12-01 23:47:17,402 - Model - INFO - Saving at /home/chenru/wuwei/RepSurf/classification/log/ScanObjectNN/2022-12-01_03-11/checkpoints/best_model.pth
+2022-12-01 23:47:18,164 - Model - INFO - Epoch 103 (103/300):
+2022-12-01 23:54:31,485 - Model - INFO - Train Instance Accuracy: 98.18, Loss: 0.674481
+2022-12-01 23:58:07,515 - Model - INFO - Test Single Accuracy: 84.07
+2022-12-01 23:58:07,515 - Model - INFO - Best Single Accuracy: 84.07
+2022-12-01 23:58:07,516 - Model - INFO - Test Vote Accuracy: 84.49
+2022-12-01 23:58:07,516 - Model - INFO - Best Vote Accuracy: 84.49
+2022-12-01 23:58:07,516 - Model - INFO - Test Class Accuracy: 83.41
+2022-12-01 23:58:07,516 - Model - INFO - Best Class Accuracy: 83.41
+2022-12-01 23:58:07,516 - Model - INFO - Save model...
+2022-12-01 23:58:07,516 - Model - INFO - Saving at /home/chenru/wuwei/RepSurf/classification/log/ScanObjectNN/2022-12-01_03-11/checkpoints/best_model.pth
+2022-12-01 23:58:08,070 - Model - INFO - Epoch 104 (104/300):
+2022-12-02 00:05:19,736 - Model - INFO - Train Instance Accuracy: 97.98, Loss: 0.679071
+2022-12-02 00:08:53,541 - Model - INFO - Test Single Accuracy: 83.52
+2022-12-02 00:08:53,541 - Model - INFO - Best Single Accuracy: 84.07
+2022-12-02 00:08:53,541 - Model - INFO - Test Vote Accuracy: 83.73
+2022-12-02 00:08:53,541 - Model - INFO - Best Vote Accuracy: 84.49
+2022-12-02 00:08:53,541 - Model - INFO - Test Class Accuracy: 82.55
+2022-12-02 00:08:53,541 - Model - INFO - Best Class Accuracy: 83.41
+2022-12-02 00:08:53,541 - Model - INFO - Epoch 105 (105/300):
+2022-12-02 00:16:09,241 - Model - INFO - Train Instance Accuracy: 97.62, Loss: 0.681921
+2022-12-02 00:19:45,663 - Model - INFO - Test Single Accuracy: 83.14
+2022-12-02 00:19:45,664 - Model - INFO - Best Single Accuracy: 84.07
+2022-12-02 00:19:45,664 - Model - INFO - Test Vote Accuracy: 83.41
+2022-12-02 00:19:45,664 - Model - INFO - Best Vote Accuracy: 84.49
+2022-12-02 00:19:45,664 - Model - INFO - Test Class Accuracy: 81.70
+2022-12-02 00:19:45,665 - Model - INFO - Best Class Accuracy: 83.41
+2022-12-02 00:19:45,665 - Model - INFO - Epoch 106 (106/300):
+2022-12-02 00:27:01,329 - Model - INFO - Train Instance Accuracy: 97.87, Loss: 0.679726
+2022-12-02 00:30:36,229 - Model - INFO - Test Single Accuracy: 82.30
+2022-12-02 00:30:36,229 - Model - INFO - Best Single Accuracy: 84.07
+2022-12-02 00:30:36,230 - Model - INFO - Test Vote Accuracy: 82.13
+2022-12-02 00:30:36,230 - Model - INFO - Best Vote Accuracy: 84.49
+2022-12-02 00:30:36,230 - Model - INFO - Test Class Accuracy: 80.23
+2022-12-02 00:30:36,230 - Model - INFO - Best Class Accuracy: 83.41
+2022-12-02 00:30:36,230 - Model - INFO - Epoch 107 (107/300):
+2022-12-02 00:37:54,362 - Model - INFO - Train Instance Accuracy: 98.21, Loss: 0.674883
+2022-12-02 00:41:29,785 - Model - INFO - Test Single Accuracy: 82.65
+2022-12-02 00:41:29,786 - Model - INFO - Best Single Accuracy: 84.07
+2022-12-02 00:41:29,786 - Model - INFO - Test Vote Accuracy: 83.17
+2022-12-02 00:41:29,786 - Model - INFO - Best Vote Accuracy: 84.49
+2022-12-02 00:41:29,786 - Model - INFO - Test Class Accuracy: 81.79
+2022-12-02 00:41:29,786 - Model - INFO - Best Class Accuracy: 83.41
+2022-12-02 00:41:29,786 - Model - INFO - Epoch 108 (108/300):
+2022-12-02 00:48:45,128 - Model - INFO - Train Instance Accuracy: 98.25, Loss: 0.672525
+2022-12-02 00:52:21,293 - Model - INFO - Test Single Accuracy: 82.89
+2022-12-02 00:52:21,294 - Model - INFO - Best Single Accuracy: 84.07
+2022-12-02 00:52:21,294 - Model - INFO - Test Vote Accuracy: 82.65
+2022-12-02 00:52:21,294 - Model - INFO - Best Vote Accuracy: 84.49
+2022-12-02 00:52:21,294 - Model - INFO - Test Class Accuracy: 81.31
+2022-12-02 00:52:21,294 - Model - INFO - Best Class Accuracy: 83.41
+2022-12-02 00:52:21,294 - Model - INFO - Epoch 109 (109/300):
+2022-12-02 00:59:34,362 - Model - INFO - Train Instance Accuracy: 97.98, Loss: 0.677277
+2022-12-02 01:03:11,599 - Model - INFO - Test Single Accuracy: 83.62
+2022-12-02 01:03:11,600 - Model - INFO - Best Single Accuracy: 84.07
+2022-12-02 01:03:11,600 - Model - INFO - Test Vote Accuracy: 84.42
+2022-12-02 01:03:11,600 - Model - INFO - Best Vote Accuracy: 84.49
+2022-12-02 01:03:11,600 - Model - INFO - Test Class Accuracy: 83.03
+2022-12-02 01:03:11,600 - Model - INFO - Best Class Accuracy: 83.41
+2022-12-02 01:03:11,600 - Model - INFO - Epoch 110 (110/300):
+2022-12-02 01:10:23,264 - Model - INFO - Train Instance Accuracy: 98.27, Loss: 0.673878
+2022-12-02 01:13:59,021 - Model - INFO - Test Single Accuracy: 82.58
+2022-12-02 01:13:59,022 - Model - INFO - Best Single Accuracy: 84.07
+2022-12-02 01:13:59,022 - Model - INFO - Test Vote Accuracy: 82.82
+2022-12-02 01:13:59,022 - Model - INFO - Best Vote Accuracy: 84.49
+2022-12-02 01:13:59,022 - Model - INFO - Test Class Accuracy: 80.26
+2022-12-02 01:13:59,022 - Model - INFO - Best Class Accuracy: 83.41
+2022-12-02 01:13:59,022 - Model - INFO - Epoch 111 (111/300):
+2022-12-02 01:21:12,756 - Model - INFO - Train Instance Accuracy: 98.25, Loss: 0.671163
+2022-12-02 01:24:35,302 - Model - INFO - Test Single Accuracy: 82.65
+2022-12-02 01:24:35,303 - Model - INFO - Best Single Accuracy: 84.07
+2022-12-02 01:24:35,303 - Model - INFO - Test Vote Accuracy: 83.97
+2022-12-02 01:24:35,303 - Model - INFO - Best Vote Accuracy: 84.49
+2022-12-02 01:24:35,303 - Model - INFO - Test Class Accuracy: 83.06
+2022-12-02 01:24:35,303 - Model - INFO - Best Class Accuracy: 83.41
+2022-12-02 01:24:35,304 - Model - INFO - Epoch 112 (112/300):
+2022-12-02 01:30:58,401 - Model - INFO - Train Instance Accuracy: 98.18, Loss: 0.675547
+2022-12-02 01:34:05,685 - Model - INFO - Test Single Accuracy: 82.96
+2022-12-02 01:34:05,685 - Model - INFO - Best Single Accuracy: 84.07
+2022-12-02 01:34:05,686 - Model - INFO - Test Vote Accuracy: 83.69
+2022-12-02 01:34:05,686 - Model - INFO - Best Vote Accuracy: 84.49
+2022-12-02 01:34:05,686 - Model - INFO - Test Class Accuracy: 82.72
+2022-12-02 01:34:05,686 - Model - INFO - Best Class Accuracy: 83.41
+2022-12-02 01:34:05,686 - Model - INFO - Epoch 113 (113/300):
+2022-12-02 01:40:28,514 - Model - INFO - Train Instance Accuracy: 98.11, Loss: 0.675559
+2022-12-02 01:43:35,047 - Model - INFO - Test Single Accuracy: 83.07
+2022-12-02 01:43:35,047 - Model - INFO - Best Single Accuracy: 84.07
+2022-12-02 01:43:35,048 - Model - INFO - Test Vote Accuracy: 83.48
+2022-12-02 01:43:35,048 - Model - INFO - Best Vote Accuracy: 84.49
+2022-12-02 01:43:35,048 - Model - INFO - Test Class Accuracy: 82.14
+2022-12-02 01:43:35,048 - Model - INFO - Best Class Accuracy: 83.41
+2022-12-02 01:43:35,048 - Model - INFO - Epoch 114 (114/300):
+2022-12-02 01:49:59,060 - Model - INFO - Train Instance Accuracy: 98.06, Loss: 0.676029
+2022-12-02 01:53:36,507 - Model - INFO - Test Single Accuracy: 82.76
+2022-12-02 01:53:36,508 - Model - INFO - Best Single Accuracy: 84.07
+2022-12-02 01:53:36,508 - Model - INFO - Test Vote Accuracy: 83.66
+2022-12-02 01:53:36,508 - Model - INFO - Best Vote Accuracy: 84.49
+2022-12-02 01:53:36,508 - Model - INFO - Test Class Accuracy: 81.64
+2022-12-02 01:53:36,508 - Model - INFO - Best Class Accuracy: 83.41
+2022-12-02 01:53:36,508 - Model - INFO - Epoch 115 (115/300):
+2022-12-02 02:00:49,977 - Model - INFO - Train Instance Accuracy: 98.32, Loss: 0.672859
+2022-12-02 02:04:25,281 - Model - INFO - Test Single Accuracy: 83.48
+2022-12-02 02:04:25,281 - Model - INFO - Best Single Accuracy: 84.07
+2022-12-02 02:04:25,281 - Model - INFO - Test Vote Accuracy: 84.49
+2022-12-02 02:04:25,281 - Model - INFO - Best Vote Accuracy: 84.49
+2022-12-02 02:04:25,281 - Model - INFO - Test Class Accuracy: 83.08
+2022-12-02 02:04:25,281 - Model - INFO - Best Class Accuracy: 83.41
+2022-12-02 02:04:25,281 - Model - INFO - Save model...
+2022-12-02 02:04:25,281 - Model - INFO - Saving at /home/chenru/wuwei/RepSurf/classification/log/ScanObjectNN/2022-12-01_03-11/checkpoints/best_model.pth
+2022-12-02 02:04:25,836 - Model - INFO - Epoch 116 (116/300):
+2022-12-02 02:11:40,997 - Model - INFO - Train Instance Accuracy: 98.29, Loss: 0.672128
+2022-12-02 02:15:15,852 - Model - INFO - Test Single Accuracy: 82.23
+2022-12-02 02:15:15,852 - Model - INFO - Best Single Accuracy: 84.07
+2022-12-02 02:15:15,852 - Model - INFO - Test Vote Accuracy: 82.62
+2022-12-02 02:15:15,852 - Model - INFO - Best Vote Accuracy: 84.49
+2022-12-02 02:15:15,853 - Model - INFO - Test Class Accuracy: 81.89
+2022-12-02 02:15:15,853 - Model - INFO - Best Class Accuracy: 83.41
+2022-12-02 02:15:15,853 - Model - INFO - Epoch 117 (117/300):
+2022-12-02 02:22:29,646 - Model - INFO - Train Instance Accuracy: 98.47, Loss: 0.667734
+2022-12-02 02:26:05,752 - Model - INFO - Test Single Accuracy: 83.41
+2022-12-02 02:26:05,752 - Model - INFO - Best Single Accuracy: 84.07
+2022-12-02 02:26:05,753 - Model - INFO - Test Vote Accuracy: 84.14
+2022-12-02 02:26:05,753 - Model - INFO - Best Vote Accuracy: 84.49
+2022-12-02 02:26:05,753 - Model - INFO - Test Class Accuracy: 82.84
+2022-12-02 02:26:05,753 - Model - INFO - Best Class Accuracy: 83.41
+2022-12-02 02:26:05,753 - Model - INFO - Epoch 118 (118/300):
+2022-12-02 02:33:21,616 - Model - INFO - Train Instance Accuracy: 98.13, Loss: 0.673244
+2022-12-02 02:36:57,578 - Model - INFO - Test Single Accuracy: 82.58
+2022-12-02 02:36:57,579 - Model - INFO - Best Single Accuracy: 84.07
+2022-12-02 02:36:57,579 - Model - INFO - Test Vote Accuracy: 83.38
+2022-12-02 02:36:57,579 - Model - INFO - Best Vote Accuracy: 84.49
+2022-12-02 02:36:57,579 - Model - INFO - Test Class Accuracy: 82.17
+2022-12-02 02:36:57,579 - Model - INFO - Best Class Accuracy: 83.41
+2022-12-02 02:36:57,580 - Model - INFO - Epoch 119 (119/300):
+2022-12-02 02:44:10,715 - Model - INFO - Train Instance Accuracy: 98.46, Loss: 0.667266
+2022-12-02 02:47:46,574 - Model - INFO - Test Single Accuracy: 82.51
+2022-12-02 02:47:46,575 - Model - INFO - Best Single Accuracy: 84.07
+2022-12-02 02:47:46,575 - Model - INFO - Test Vote Accuracy: 83.00
+2022-12-02 02:47:46,575 - Model - INFO - Best Vote Accuracy: 84.49
+2022-12-02 02:47:46,575 - Model - INFO - Test Class Accuracy: 81.21
+2022-12-02 02:47:46,575 - Model - INFO - Best Class Accuracy: 83.41
+2022-12-02 02:47:46,575 - Model - INFO - Epoch 120 (120/300):
+2022-12-02 02:55:01,802 - Model - INFO - Train Instance Accuracy: 98.63, Loss: 0.660388
+2022-12-02 02:58:38,036 - Model - INFO - Test Single Accuracy: 83.80
+2022-12-02 02:58:38,037 - Model - INFO - Best Single Accuracy: 84.07
+2022-12-02 02:58:38,037 - Model - INFO - Test Vote Accuracy: 83.97
+2022-12-02 02:58:38,037 - Model - INFO - Best Vote Accuracy: 84.49
+2022-12-02 02:58:38,037 - Model - INFO - Test Class Accuracy: 82.59
+2022-12-02 02:58:38,037 - Model - INFO - Best Class Accuracy: 83.41
+2022-12-02 02:58:38,037 - Model - INFO - Epoch 121 (121/300):
+2022-12-02 03:05:52,257 - Model - INFO - Train Instance Accuracy: 98.93, Loss: 0.655573
+2022-12-02 03:09:25,302 - Model - INFO - Test Single Accuracy: 83.76
+2022-12-02 03:09:25,303 - Model - INFO - Best Single Accuracy: 84.07
+2022-12-02 03:09:25,303 - Model - INFO - Test Vote Accuracy: 84.52
+2022-12-02 03:09:25,303 - Model - INFO - Best Vote Accuracy: 84.52
+2022-12-02 03:09:25,303 - Model - INFO - Test Class Accuracy: 82.72
+2022-12-02 03:09:25,303 - Model - INFO - Best Class Accuracy: 83.41
+2022-12-02 03:09:25,304 - Model - INFO - Save model...
+2022-12-02 03:09:25,304 - Model - INFO - Saving at /home/chenru/wuwei/RepSurf/classification/log/ScanObjectNN/2022-12-01_03-11/checkpoints/best_model.pth
+2022-12-02 03:09:25,842 - Model - INFO - Epoch 122 (122/300):
+2022-12-02 03:16:42,804 - Model - INFO - Train Instance Accuracy: 98.72, Loss: 0.658109
+2022-12-02 03:20:17,912 - Model - INFO - Test Single Accuracy: 84.18
+2022-12-02 03:20:17,913 - Model - INFO - Best Single Accuracy: 84.18
+2022-12-02 03:20:17,913 - Model - INFO - Test Vote Accuracy: 84.84
+2022-12-02 03:20:17,913 - Model - INFO - Best Vote Accuracy: 84.84
+2022-12-02 03:20:17,913 - Model - INFO - Test Class Accuracy: 83.77
+2022-12-02 03:20:17,913 - Model - INFO - Best Class Accuracy: 83.77
+2022-12-02 03:20:17,914 - Model - INFO - Save model...
+2022-12-02 03:20:17,914 - Model - INFO - Saving at /home/chenru/wuwei/RepSurf/classification/log/ScanObjectNN/2022-12-01_03-11/checkpoints/best_model.pth
+2022-12-02 03:20:18,431 - Model - INFO - Epoch 123 (123/300):
+2022-12-02 03:27:31,533 - Model - INFO - Train Instance Accuracy: 98.68, Loss: 0.660429
+2022-12-02 03:31:06,487 - Model - INFO - Test Single Accuracy: 82.89
+2022-12-02 03:31:06,487 - Model - INFO - Best Single Accuracy: 84.18
+2022-12-02 03:31:06,487 - Model - INFO - Test Vote Accuracy: 83.87
+2022-12-02 03:31:06,488 - Model - INFO - Best Vote Accuracy: 84.84
+2022-12-02 03:31:06,488 - Model - INFO - Test Class Accuracy: 82.01
+2022-12-02 03:31:06,488 - Model - INFO - Best Class Accuracy: 83.77
+2022-12-02 03:31:06,488 - Model - INFO - Epoch 124 (124/300):
+2022-12-02 03:38:21,012 - Model - INFO - Train Instance Accuracy: 98.79, Loss: 0.657480
+2022-12-02 03:41:54,896 - Model - INFO - Test Single Accuracy: 83.73
+2022-12-02 03:41:54,897 - Model - INFO - Best Single Accuracy: 84.18
+2022-12-02 03:41:54,897 - Model - INFO - Test Vote Accuracy: 84.59
+2022-12-02 03:41:54,897 - Model - INFO - Best Vote Accuracy: 84.84
+2022-12-02 03:41:54,897 - Model - INFO - Test Class Accuracy: 82.71
+2022-12-02 03:41:54,897 - Model - INFO - Best Class Accuracy: 83.77
+2022-12-02 03:41:54,897 - Model - INFO - Epoch 125 (125/300):
+2022-12-02 03:49:08,022 - Model - INFO - Train Instance Accuracy: 98.79, Loss: 0.658101
+2022-12-02 03:52:42,625 - Model - INFO - Test Single Accuracy: 83.55
+2022-12-02 03:52:42,625 - Model - INFO - Best Single Accuracy: 84.18
+2022-12-02 03:52:42,625 - Model - INFO - Test Vote Accuracy: 85.29
+2022-12-02 03:52:42,626 - Model - INFO - Best Vote Accuracy: 85.29
+2022-12-02 03:52:42,626 - Model - INFO - Test Class Accuracy: 83.75
+2022-12-02 03:52:42,626 - Model - INFO - Best Class Accuracy: 83.77
+2022-12-02 03:52:42,626 - Model - INFO - Save model...
+2022-12-02 03:52:42,626 - Model - INFO - Saving at /home/chenru/wuwei/RepSurf/classification/log/ScanObjectNN/2022-12-01_03-11/checkpoints/best_model.pth
+2022-12-02 03:52:43,115 - Model - INFO - Epoch 126 (126/300):
+2022-12-02 03:59:55,984 - Model - INFO - Train Instance Accuracy: 98.78, Loss: 0.658233
+2022-12-02 04:03:31,845 - Model - INFO - Test Single Accuracy: 84.52
+2022-12-02 04:03:31,845 - Model - INFO - Best Single Accuracy: 84.52
+2022-12-02 04:03:31,845 - Model - INFO - Test Vote Accuracy: 84.73
+2022-12-02 04:03:31,846 - Model - INFO - Best Vote Accuracy: 85.29
+2022-12-02 04:03:31,846 - Model - INFO - Test Class Accuracy: 83.23
+2022-12-02 04:03:31,846 - Model - INFO - Best Class Accuracy: 83.77
+2022-12-02 04:03:31,846 - Model - INFO - Epoch 127 (127/300):
+2022-12-02 04:10:45,520 - Model - INFO - Train Instance Accuracy: 98.82, Loss: 0.656087
+2022-12-02 04:14:21,746 - Model - INFO - Test Single Accuracy: 83.24
+2022-12-02 04:14:21,746 - Model - INFO - Best Single Accuracy: 84.52
+2022-12-02 04:14:21,746 - Model - INFO - Test Vote Accuracy: 83.93
+2022-12-02 04:14:21,746 - Model - INFO - Best Vote Accuracy: 85.29
+2022-12-02 04:14:21,746 - Model - INFO - Test Class Accuracy: 82.56
+2022-12-02 04:14:21,746 - Model - INFO - Best Class Accuracy: 83.77
+2022-12-02 04:14:21,746 - Model - INFO - Epoch 128 (128/300):
+2022-12-02 04:21:35,030 - Model - INFO - Train Instance Accuracy: 98.88, Loss: 0.655562
+2022-12-02 04:24:49,327 - Model - INFO - Test Single Accuracy: 83.83
+2022-12-02 04:24:49,328 - Model - INFO - Best Single Accuracy: 84.52
+2022-12-02 04:24:49,328 - Model - INFO - Test Vote Accuracy: 84.32
+2022-12-02 04:24:49,328 - Model - INFO - Best Vote Accuracy: 85.29
+2022-12-02 04:24:49,328 - Model - INFO - Test Class Accuracy: 82.04
+2022-12-02 04:24:49,328 - Model - INFO - Best Class Accuracy: 83.77
+2022-12-02 04:24:49,328 - Model - INFO - Epoch 129 (129/300):
+2022-12-02 04:31:11,390 - Model - INFO - Train Instance Accuracy: 98.84, Loss: 0.652251
+2022-12-02 04:34:18,436 - Model - INFO - Test Single Accuracy: 83.10
+2022-12-02 04:34:18,437 - Model - INFO - Best Single Accuracy: 84.52
+2022-12-02 04:34:18,437 - Model - INFO - Test Vote Accuracy: 83.76
+2022-12-02 04:34:18,437 - Model - INFO - Best Vote Accuracy: 85.29
+2022-12-02 04:34:18,437 - Model - INFO - Test Class Accuracy: 81.71
+2022-12-02 04:34:18,438 - Model - INFO - Best Class Accuracy: 83.77
+2022-12-02 04:34:18,438 - Model - INFO - Epoch 130 (130/300):
+2022-12-02 04:40:40,399 - Model - INFO - Train Instance Accuracy: 98.73, Loss: 0.657761
+2022-12-02 04:43:48,272 - Model - INFO - Test Single Accuracy: 83.59
+2022-12-02 04:43:48,272 - Model - INFO - Best Single Accuracy: 84.52
+2022-12-02 04:43:48,273 - Model - INFO - Test Vote Accuracy: 83.93
+2022-12-02 04:43:48,273 - Model - INFO - Best Vote Accuracy: 85.29
+2022-12-02 04:43:48,273 - Model - INFO - Test Class Accuracy: 82.80
+2022-12-02 04:43:48,273 - Model - INFO - Best Class Accuracy: 83.77
+2022-12-02 04:43:48,273 - Model - INFO - Epoch 131 (131/300):
+2022-12-02 04:50:15,992 - Model - INFO - Train Instance Accuracy: 99.03, Loss: 0.652305
+2022-12-02 04:53:51,572 - Model - INFO - Test Single Accuracy: 84.11
+2022-12-02 04:53:51,573 - Model - INFO - Best Single Accuracy: 84.52
+2022-12-02 04:53:51,573 - Model - INFO - Test Vote Accuracy: 84.87
+2022-12-02 04:53:51,573 - Model - INFO - Best Vote Accuracy: 85.29
+2022-12-02 04:53:51,573 - Model - INFO - Test Class Accuracy: 82.60
+2022-12-02 04:53:51,573 - Model - INFO - Best Class Accuracy: 83.77
+2022-12-02 04:53:51,573 - Model - INFO - Epoch 132 (132/300):
+2022-12-02 05:01:04,722 - Model - INFO - Train Instance Accuracy: 99.03, Loss: 0.652794
+2022-12-02 05:04:40,692 - Model - INFO - Test Single Accuracy: 83.24
+2022-12-02 05:04:40,693 - Model - INFO - Best Single Accuracy: 84.52
+2022-12-02 05:04:40,693 - Model - INFO - Test Vote Accuracy: 83.93
+2022-12-02 05:04:40,693 - Model - INFO - Best Vote Accuracy: 85.29
+2022-12-02 05:04:40,693 - Model - INFO - Test Class Accuracy: 82.12
+2022-12-02 05:04:40,693 - Model - INFO - Best Class Accuracy: 83.77
+2022-12-02 05:04:40,693 - Model - INFO - Epoch 133 (133/300):
+2022-12-02 05:11:53,704 - Model - INFO - Train Instance Accuracy: 98.97, Loss: 0.652667
+2022-12-02 05:15:29,787 - Model - INFO - Test Single Accuracy: 83.80
+2022-12-02 05:15:29,787 - Model - INFO - Best Single Accuracy: 84.52
+2022-12-02 05:15:29,787 - Model - INFO - Test Vote Accuracy: 84.14
+2022-12-02 05:15:29,788 - Model - INFO - Best Vote Accuracy: 85.29
+2022-12-02 05:15:29,788 - Model - INFO - Test Class Accuracy: 82.26
+2022-12-02 05:15:29,788 - Model - INFO - Best Class Accuracy: 83.77
+2022-12-02 05:15:29,788 - Model - INFO - Epoch 134 (134/300):
+2022-12-02 05:22:43,670 - Model - INFO - Train Instance Accuracy: 98.82, Loss: 0.652837
+2022-12-02 05:26:19,758 - Model - INFO - Test Single Accuracy: 83.97
+2022-12-02 05:26:19,759 - Model - INFO - Best Single Accuracy: 84.52
+2022-12-02 05:26:19,759 - Model - INFO - Test Vote Accuracy: 84.77
+2022-12-02 05:26:19,759 - Model - INFO - Best Vote Accuracy: 85.29
+2022-12-02 05:26:19,759 - Model - INFO - Test Class Accuracy: 83.50
+2022-12-02 05:26:19,760 - Model - INFO - Best Class Accuracy: 83.77
+2022-12-02 05:26:19,760 - Model - INFO - Epoch 135 (135/300):
+2022-12-02 05:33:35,789 - Model - INFO - Train Instance Accuracy: 98.97, Loss: 0.652390
+2022-12-02 05:37:12,861 - Model - INFO - Test Single Accuracy: 83.48
+2022-12-02 05:37:12,861 - Model - INFO - Best Single Accuracy: 84.52
+2022-12-02 05:37:12,861 - Model - INFO - Test Vote Accuracy: 83.87
+2022-12-02 05:37:12,862 - Model - INFO - Best Vote Accuracy: 85.29
+2022-12-02 05:37:12,862 - Model - INFO - Test Class Accuracy: 82.71
+2022-12-02 05:37:12,862 - Model - INFO - Best Class Accuracy: 83.77
+2022-12-02 05:37:12,862 - Model - INFO - Epoch 136 (136/300):
+2022-12-02 05:44:28,178 - Model - INFO - Train Instance Accuracy: 98.90, Loss: 0.650994
+2022-12-02 05:48:05,527 - Model - INFO - Test Single Accuracy: 83.28
+2022-12-02 05:48:05,527 - Model - INFO - Best Single Accuracy: 84.52
+2022-12-02 05:48:05,527 - Model - INFO - Test Vote Accuracy: 83.97
+2022-12-02 05:48:05,528 - Model - INFO - Best Vote Accuracy: 85.29
+2022-12-02 05:48:05,528 - Model - INFO - Test Class Accuracy: 82.08
+2022-12-02 05:48:05,528 - Model - INFO - Best Class Accuracy: 83.77
+2022-12-02 05:48:05,528 - Model - INFO - Epoch 137 (137/300):
+2022-12-02 05:55:18,876 - Model - INFO - Train Instance Accuracy: 98.69, Loss: 0.657568
+2022-12-02 05:58:55,938 - Model - INFO - Test Single Accuracy: 84.00
+2022-12-02 05:58:55,938 - Model - INFO - Best Single Accuracy: 84.52
+2022-12-02 05:58:55,938 - Model - INFO - Test Vote Accuracy: 84.28
+2022-12-02 05:58:55,938 - Model - INFO - Best Vote Accuracy: 85.29
+2022-12-02 05:58:55,938 - Model - INFO - Test Class Accuracy: 82.68
+2022-12-02 05:58:55,939 - Model - INFO - Best Class Accuracy: 83.77
+2022-12-02 05:58:55,939 - Model - INFO - Epoch 138 (138/300):
+2022-12-02 06:06:09,781 - Model - INFO - Train Instance Accuracy: 98.97, Loss: 0.650701
+2022-12-02 06:09:45,608 - Model - INFO - Test Single Accuracy: 82.65
+2022-12-02 06:09:45,609 - Model - INFO - Best Single Accuracy: 84.52
+2022-12-02 06:09:45,609 - Model - INFO - Test Vote Accuracy: 84.07
+2022-12-02 06:09:45,609 - Model - INFO - Best Vote Accuracy: 85.29
+2022-12-02 06:09:45,609 - Model - INFO - Test Class Accuracy: 82.49
+2022-12-02 06:09:45,609 - Model - INFO - Best Class Accuracy: 83.77
+2022-12-02 06:09:45,610 - Model - INFO - Epoch 139 (139/300):
+2022-12-02 06:17:01,930 - Model - INFO - Train Instance Accuracy: 98.90, Loss: 0.651937
+2022-12-02 06:20:38,892 - Model - INFO - Test Single Accuracy: 83.90
+2022-12-02 06:20:38,893 - Model - INFO - Best Single Accuracy: 84.52
+2022-12-02 06:20:38,893 - Model - INFO - Test Vote Accuracy: 84.07
+2022-12-02 06:20:38,893 - Model - INFO - Best Vote Accuracy: 85.29
+2022-12-02 06:20:38,893 - Model - INFO - Test Class Accuracy: 81.54
+2022-12-02 06:20:38,893 - Model - INFO - Best Class Accuracy: 83.77
+2022-12-02 06:20:38,893 - Model - INFO - Epoch 140 (140/300):
+2022-12-02 06:27:53,616 - Model - INFO - Train Instance Accuracy: 99.10, Loss: 0.646116
+2022-12-02 06:31:30,027 - Model - INFO - Test Single Accuracy: 83.28
+2022-12-02 06:31:30,031 - Model - INFO - Best Single Accuracy: 84.52
+2022-12-02 06:31:30,031 - Model - INFO - Test Vote Accuracy: 84.25
+2022-12-02 06:31:30,031 - Model - INFO - Best Vote Accuracy: 85.29
+2022-12-02 06:31:30,031 - Model - INFO - Test Class Accuracy: 82.44
+2022-12-02 06:31:30,031 - Model - INFO - Best Class Accuracy: 83.77
+2022-12-02 06:31:30,031 - Model - INFO - Epoch 141 (141/300):
+2022-12-02 06:38:46,165 - Model - INFO - Train Instance Accuracy: 99.38, Loss: 0.640943
+2022-12-02 06:42:22,190 - Model - INFO - Test Single Accuracy: 84.04
+2022-12-02 06:42:22,190 - Model - INFO - Best Single Accuracy: 84.52
+2022-12-02 06:42:22,190 - Model - INFO - Test Vote Accuracy: 84.73
+2022-12-02 06:42:22,190 - Model - INFO - Best Vote Accuracy: 85.29
+2022-12-02 06:42:22,190 - Model - INFO - Test Class Accuracy: 83.21
+2022-12-02 06:42:22,190 - Model - INFO - Best Class Accuracy: 83.77
+2022-12-02 06:42:22,190 - Model - INFO - Epoch 142 (142/300):
+2022-12-02 06:49:38,716 - Model - INFO - Train Instance Accuracy: 99.27, Loss: 0.645680
+2022-12-02 06:53:16,266 - Model - INFO - Test Single Accuracy: 83.55
+2022-12-02 06:53:16,266 - Model - INFO - Best Single Accuracy: 84.52
+2022-12-02 06:53:16,266 - Model - INFO - Test Vote Accuracy: 84.32
+2022-12-02 06:53:16,266 - Model - INFO - Best Vote Accuracy: 85.29
+2022-12-02 06:53:16,267 - Model - INFO - Test Class Accuracy: 83.07
+2022-12-02 06:53:16,267 - Model - INFO - Best Class Accuracy: 83.77
+2022-12-02 06:53:16,267 - Model - INFO - Epoch 143 (143/300):
+2022-12-02 07:00:32,676 - Model - INFO - Train Instance Accuracy: 99.32, Loss: 0.641859
+2022-12-02 07:04:07,931 - Model - INFO - Test Single Accuracy: 83.59
+2022-12-02 07:04:07,931 - Model - INFO - Best Single Accuracy: 84.52
+2022-12-02 07:04:07,931 - Model - INFO - Test Vote Accuracy: 84.28
+2022-12-02 07:04:07,931 - Model - INFO - Best Vote Accuracy: 85.29
+2022-12-02 07:04:07,931 - Model - INFO - Test Class Accuracy: 82.94
+2022-12-02 07:04:07,931 - Model - INFO - Best Class Accuracy: 83.77
+2022-12-02 07:04:07,931 - Model - INFO - Epoch 144 (144/300):
+2022-12-02 07:11:22,550 - Model - INFO - Train Instance Accuracy: 99.32, Loss: 0.643507
+2022-12-02 07:14:58,002 - Model - INFO - Test Single Accuracy: 83.21
+2022-12-02 07:14:58,003 - Model - INFO - Best Single Accuracy: 84.52
+2022-12-02 07:14:58,003 - Model - INFO - Test Vote Accuracy: 84.35
+2022-12-02 07:14:58,003 - Model - INFO - Best Vote Accuracy: 85.29
+2022-12-02 07:14:58,003 - Model - INFO - Test Class Accuracy: 83.13
+2022-12-02 07:14:58,003 - Model - INFO - Best Class Accuracy: 83.77
+2022-12-02 07:14:58,004 - Model - INFO - Epoch 145 (145/300):
+2022-12-02 07:22:13,481 - Model - INFO - Train Instance Accuracy: 99.25, Loss: 0.641220
+2022-12-02 07:25:21,101 - Model - INFO - Test Single Accuracy: 84.91
+2022-12-02 07:25:21,101 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 07:25:21,101 - Model - INFO - Test Vote Accuracy: 85.67
+2022-12-02 07:25:21,101 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 07:25:21,101 - Model - INFO - Test Class Accuracy: 83.99
+2022-12-02 07:25:21,102 - Model - INFO - Best Class Accuracy: 83.99
+2022-12-02 07:25:21,102 - Model - INFO - Save model...
+2022-12-02 07:25:21,102 - Model - INFO - Saving at /home/chenru/wuwei/RepSurf/classification/log/ScanObjectNN/2022-12-01_03-11/checkpoints/best_model.pth
+2022-12-02 07:25:21,986 - Model - INFO - Epoch 146 (146/300):
+2022-12-02 07:31:49,168 - Model - INFO - Train Instance Accuracy: 99.32, Loss: 0.642810
+2022-12-02 07:34:58,221 - Model - INFO - Test Single Accuracy: 84.35
+2022-12-02 07:34:58,221 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 07:34:58,222 - Model - INFO - Test Vote Accuracy: 84.63
+2022-12-02 07:34:58,222 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 07:34:58,222 - Model - INFO - Test Class Accuracy: 83.68
+2022-12-02 07:34:58,222 - Model - INFO - Best Class Accuracy: 83.99
+2022-12-02 07:34:58,222 - Model - INFO - Epoch 147 (147/300):
+2022-12-02 07:41:23,056 - Model - INFO - Train Instance Accuracy: 99.21, Loss: 0.644575
+2022-12-02 07:44:31,021 - Model - INFO - Test Single Accuracy: 83.66
+2022-12-02 07:44:31,022 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 07:44:31,022 - Model - INFO - Test Vote Accuracy: 84.25
+2022-12-02 07:44:31,022 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 07:44:31,022 - Model - INFO - Test Class Accuracy: 83.04
+2022-12-02 07:44:31,022 - Model - INFO - Best Class Accuracy: 83.99
+2022-12-02 07:44:31,022 - Model - INFO - Epoch 148 (148/300):
+2022-12-02 07:51:15,459 - Model - INFO - Train Instance Accuracy: 99.23, Loss: 0.644023
+2022-12-02 07:54:51,854 - Model - INFO - Test Single Accuracy: 83.45
+2022-12-02 07:54:51,855 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 07:54:51,855 - Model - INFO - Test Vote Accuracy: 84.59
+2022-12-02 07:54:51,855 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 07:54:51,855 - Model - INFO - Test Class Accuracy: 82.98
+2022-12-02 07:54:51,855 - Model - INFO - Best Class Accuracy: 83.99
+2022-12-02 07:54:51,855 - Model - INFO - Epoch 149 (149/300):
+2022-12-02 08:02:06,155 - Model - INFO - Train Instance Accuracy: 99.11, Loss: 0.646366
+2022-12-02 08:05:43,368 - Model - INFO - Test Single Accuracy: 83.62
+2022-12-02 08:05:43,368 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 08:05:43,368 - Model - INFO - Test Vote Accuracy: 84.42
+2022-12-02 08:05:43,368 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 08:05:43,368 - Model - INFO - Test Class Accuracy: 82.84
+2022-12-02 08:05:43,368 - Model - INFO - Best Class Accuracy: 83.99
+2022-12-02 08:05:43,369 - Model - INFO - Epoch 150 (150/300):
+2022-12-02 08:13:00,278 - Model - INFO - Train Instance Accuracy: 99.31, Loss: 0.641260
+2022-12-02 08:16:37,596 - Model - INFO - Test Single Accuracy: 84.56
+2022-12-02 08:16:37,597 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 08:16:37,597 - Model - INFO - Test Vote Accuracy: 84.59
+2022-12-02 08:16:37,597 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 08:16:37,597 - Model - INFO - Test Class Accuracy: 83.22
+2022-12-02 08:16:37,597 - Model - INFO - Best Class Accuracy: 83.99
+2022-12-02 08:16:37,597 - Model - INFO - Epoch 151 (151/300):
+2022-12-02 08:23:52,736 - Model - INFO - Train Instance Accuracy: 99.34, Loss: 0.639399
+2022-12-02 08:27:30,513 - Model - INFO - Test Single Accuracy: 83.76
+2022-12-02 08:27:30,513 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 08:27:30,513 - Model - INFO - Test Vote Accuracy: 84.91
+2022-12-02 08:27:30,513 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 08:27:30,513 - Model - INFO - Test Class Accuracy: 83.78
+2022-12-02 08:27:30,513 - Model - INFO - Best Class Accuracy: 83.99
+2022-12-02 08:27:30,514 - Model - INFO - Epoch 152 (152/300):
+2022-12-02 08:34:48,447 - Model - INFO - Train Instance Accuracy: 99.21, Loss: 0.642940
+2022-12-02 08:38:25,480 - Model - INFO - Test Single Accuracy: 84.28
+2022-12-02 08:38:25,481 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 08:38:25,481 - Model - INFO - Test Vote Accuracy: 85.11
+2022-12-02 08:38:25,481 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 08:38:25,481 - Model - INFO - Test Class Accuracy: 83.58
+2022-12-02 08:38:25,482 - Model - INFO - Best Class Accuracy: 83.99
+2022-12-02 08:38:25,482 - Model - INFO - Epoch 153 (153/300):
+2022-12-02 08:45:45,875 - Model - INFO - Train Instance Accuracy: 99.28, Loss: 0.641842
+2022-12-02 08:49:21,603 - Model - INFO - Test Single Accuracy: 83.34
+2022-12-02 08:49:21,603 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 08:49:21,604 - Model - INFO - Test Vote Accuracy: 84.21
+2022-12-02 08:49:21,604 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 08:49:21,604 - Model - INFO - Test Class Accuracy: 82.92
+2022-12-02 08:49:21,604 - Model - INFO - Best Class Accuracy: 83.99
+2022-12-02 08:49:21,604 - Model - INFO - Epoch 154 (154/300):
+2022-12-02 08:56:37,228 - Model - INFO - Train Instance Accuracy: 99.29, Loss: 0.641178
+2022-12-02 09:00:13,577 - Model - INFO - Test Single Accuracy: 84.59
+2022-12-02 09:00:13,578 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 09:00:13,578 - Model - INFO - Test Vote Accuracy: 84.87
+2022-12-02 09:00:13,578 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 09:00:13,579 - Model - INFO - Test Class Accuracy: 83.31
+2022-12-02 09:00:13,579 - Model - INFO - Best Class Accuracy: 83.99
+2022-12-02 09:00:13,579 - Model - INFO - Epoch 155 (155/300):
+2022-12-02 09:07:29,532 - Model - INFO - Train Instance Accuracy: 99.25, Loss: 0.641376
+2022-12-02 09:11:06,786 - Model - INFO - Test Single Accuracy: 83.31
+2022-12-02 09:11:06,786 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 09:11:06,787 - Model - INFO - Test Vote Accuracy: 84.66
+2022-12-02 09:11:06,787 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 09:11:06,787 - Model - INFO - Test Class Accuracy: 83.25
+2022-12-02 09:11:06,787 - Model - INFO - Best Class Accuracy: 83.99
+2022-12-02 09:11:06,787 - Model - INFO - Epoch 156 (156/300):
+2022-12-02 09:18:21,946 - Model - INFO - Train Instance Accuracy: 99.33, Loss: 0.640355
+2022-12-02 09:21:59,487 - Model - INFO - Test Single Accuracy: 83.31
+2022-12-02 09:21:59,488 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 09:21:59,488 - Model - INFO - Test Vote Accuracy: 84.32
+2022-12-02 09:21:59,488 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 09:21:59,488 - Model - INFO - Test Class Accuracy: 82.73
+2022-12-02 09:21:59,488 - Model - INFO - Best Class Accuracy: 83.99
+2022-12-02 09:21:59,488 - Model - INFO - Epoch 157 (157/300):
+2022-12-02 09:29:18,012 - Model - INFO - Train Instance Accuracy: 99.23, Loss: 0.641424
+2022-12-02 09:32:55,333 - Model - INFO - Test Single Accuracy: 83.34
+2022-12-02 09:32:55,334 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 09:32:55,334 - Model - INFO - Test Vote Accuracy: 84.66
+2022-12-02 09:32:55,334 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 09:32:55,334 - Model - INFO - Test Class Accuracy: 83.19
+2022-12-02 09:32:55,334 - Model - INFO - Best Class Accuracy: 83.99
+2022-12-02 09:32:55,334 - Model - INFO - Epoch 158 (158/300):
+2022-12-02 09:40:15,071 - Model - INFO - Train Instance Accuracy: 99.28, Loss: 0.640574
+2022-12-02 09:43:51,103 - Model - INFO - Test Single Accuracy: 83.69
+2022-12-02 09:43:51,103 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 09:43:51,103 - Model - INFO - Test Vote Accuracy: 84.56
+2022-12-02 09:43:51,104 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 09:43:51,104 - Model - INFO - Test Class Accuracy: 83.20
+2022-12-02 09:43:51,104 - Model - INFO - Best Class Accuracy: 83.99
+2022-12-02 09:43:51,104 - Model - INFO - Epoch 159 (159/300):
+2022-12-02 09:51:09,431 - Model - INFO - Train Instance Accuracy: 99.32, Loss: 0.639268
+2022-12-02 09:54:46,700 - Model - INFO - Test Single Accuracy: 83.80
+2022-12-02 09:54:46,700 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 09:54:46,701 - Model - INFO - Test Vote Accuracy: 84.11
+2022-12-02 09:54:46,701 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 09:54:46,701 - Model - INFO - Test Class Accuracy: 82.72
+2022-12-02 09:54:46,701 - Model - INFO - Best Class Accuracy: 83.99
+2022-12-02 09:54:46,701 - Model - INFO - Epoch 160 (160/300):
+2022-12-02 10:02:03,580 - Model - INFO - Train Instance Accuracy: 99.52, Loss: 0.635418
+2022-12-02 10:05:41,777 - Model - INFO - Test Single Accuracy: 84.25
+2022-12-02 10:05:41,778 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 10:05:41,778 - Model - INFO - Test Vote Accuracy: 84.73
+2022-12-02 10:05:41,778 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 10:05:41,778 - Model - INFO - Test Class Accuracy: 83.47
+2022-12-02 10:05:41,779 - Model - INFO - Best Class Accuracy: 83.99
+2022-12-02 10:05:41,779 - Model - INFO - Epoch 161 (161/300):
+2022-12-02 10:12:58,719 - Model - INFO - Train Instance Accuracy: 99.54, Loss: 0.633744
+2022-12-02 10:16:34,439 - Model - INFO - Test Single Accuracy: 83.97
+2022-12-02 10:16:34,440 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 10:16:34,440 - Model - INFO - Test Vote Accuracy: 84.87
+2022-12-02 10:16:34,440 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 10:16:34,440 - Model - INFO - Test Class Accuracy: 83.50
+2022-12-02 10:16:34,440 - Model - INFO - Best Class Accuracy: 83.99
+2022-12-02 10:16:34,440 - Model - INFO - Epoch 162 (162/300):
+2022-12-02 10:23:24,857 - Model - INFO - Train Instance Accuracy: 99.53, Loss: 0.634057
+2022-12-02 10:26:34,175 - Model - INFO - Test Single Accuracy: 84.00
+2022-12-02 10:26:34,176 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 10:26:34,176 - Model - INFO - Test Vote Accuracy: 85.15
+2022-12-02 10:26:34,176 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 10:26:34,176 - Model - INFO - Test Class Accuracy: 83.35
+2022-12-02 10:26:34,176 - Model - INFO - Best Class Accuracy: 83.99
+2022-12-02 10:26:34,176 - Model - INFO - Epoch 163 (163/300):
+2022-12-02 10:32:58,961 - Model - INFO - Train Instance Accuracy: 99.47, Loss: 0.635605
+2022-12-02 10:36:06,558 - Model - INFO - Test Single Accuracy: 83.83
+2022-12-02 10:36:06,559 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 10:36:06,559 - Model - INFO - Test Vote Accuracy: 84.52
+2022-12-02 10:36:06,559 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 10:36:06,559 - Model - INFO - Test Class Accuracy: 82.65
+2022-12-02 10:36:06,559 - Model - INFO - Best Class Accuracy: 83.99
+2022-12-02 10:36:06,560 - Model - INFO - Epoch 164 (164/300):
+2022-12-02 10:42:32,274 - Model - INFO - Train Instance Accuracy: 99.49, Loss: 0.634554
+2022-12-02 10:45:41,226 - Model - INFO - Test Single Accuracy: 84.35
+2022-12-02 10:45:41,227 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 10:45:41,227 - Model - INFO - Test Vote Accuracy: 84.63
+2022-12-02 10:45:41,227 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 10:45:41,227 - Model - INFO - Test Class Accuracy: 82.79
+2022-12-02 10:45:41,227 - Model - INFO - Best Class Accuracy: 83.99
+2022-12-02 10:45:41,227 - Model - INFO - Epoch 165 (165/300):
+2022-12-02 10:52:50,386 - Model - INFO - Train Instance Accuracy: 99.39, Loss: 0.636778
+2022-12-02 10:56:29,322 - Model - INFO - Test Single Accuracy: 83.21
+2022-12-02 10:56:29,322 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 10:56:29,323 - Model - INFO - Test Vote Accuracy: 84.14
+2022-12-02 10:56:29,323 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 10:56:29,323 - Model - INFO - Test Class Accuracy: 82.64
+2022-12-02 10:56:29,323 - Model - INFO - Best Class Accuracy: 83.99
+2022-12-02 10:56:29,323 - Model - INFO - Epoch 166 (166/300):
+2022-12-02 11:03:45,902 - Model - INFO - Train Instance Accuracy: 99.55, Loss: 0.633273
+2022-12-02 11:07:22,765 - Model - INFO - Test Single Accuracy: 83.97
+2022-12-02 11:07:22,766 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 11:07:22,766 - Model - INFO - Test Vote Accuracy: 84.73
+2022-12-02 11:07:22,766 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 11:07:22,766 - Model - INFO - Test Class Accuracy: 83.07
+2022-12-02 11:07:22,766 - Model - INFO - Best Class Accuracy: 83.99
+2022-12-02 11:07:22,767 - Model - INFO - Epoch 167 (167/300):
+2022-12-02 11:14:42,035 - Model - INFO - Train Instance Accuracy: 99.39, Loss: 0.636575
+2022-12-02 11:18:20,415 - Model - INFO - Test Single Accuracy: 83.80
+2022-12-02 11:18:20,416 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 11:18:20,416 - Model - INFO - Test Vote Accuracy: 84.25
+2022-12-02 11:18:20,416 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 11:18:20,416 - Model - INFO - Test Class Accuracy: 82.59
+2022-12-02 11:18:20,416 - Model - INFO - Best Class Accuracy: 83.99
+2022-12-02 11:18:20,416 - Model - INFO - Epoch 168 (168/300):
+2022-12-02 11:25:36,800 - Model - INFO - Train Instance Accuracy: 99.55, Loss: 0.633326
+2022-12-02 11:29:15,480 - Model - INFO - Test Single Accuracy: 84.56
+2022-12-02 11:29:15,481 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 11:29:15,481 - Model - INFO - Test Vote Accuracy: 85.25
+2022-12-02 11:29:15,481 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 11:29:15,481 - Model - INFO - Test Class Accuracy: 83.68
+2022-12-02 11:29:15,481 - Model - INFO - Best Class Accuracy: 83.99
+2022-12-02 11:29:15,482 - Model - INFO - Epoch 169 (169/300):
+2022-12-02 11:36:34,161 - Model - INFO - Train Instance Accuracy: 99.61, Loss: 0.632719
+2022-12-02 11:40:11,251 - Model - INFO - Test Single Accuracy: 83.73
+2022-12-02 11:40:11,251 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 11:40:11,251 - Model - INFO - Test Vote Accuracy: 84.49
+2022-12-02 11:40:11,251 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 11:40:11,251 - Model - INFO - Test Class Accuracy: 82.84
+2022-12-02 11:40:11,251 - Model - INFO - Best Class Accuracy: 83.99
+2022-12-02 11:40:11,251 - Model - INFO - Epoch 170 (170/300):
+2022-12-02 11:47:28,754 - Model - INFO - Train Instance Accuracy: 99.54, Loss: 0.635619
+2022-12-02 11:51:06,756 - Model - INFO - Test Single Accuracy: 84.11
+2022-12-02 11:51:06,756 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 11:51:06,757 - Model - INFO - Test Vote Accuracy: 85.29
+2022-12-02 11:51:06,757 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 11:51:06,757 - Model - INFO - Test Class Accuracy: 84.04
+2022-12-02 11:51:06,757 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 11:51:06,757 - Model - INFO - Epoch 171 (171/300):
+2022-12-02 11:58:25,463 - Model - INFO - Train Instance Accuracy: 99.41, Loss: 0.634742
+2022-12-02 12:02:03,411 - Model - INFO - Test Single Accuracy: 83.38
+2022-12-02 12:02:03,411 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 12:02:03,411 - Model - INFO - Test Vote Accuracy: 84.32
+2022-12-02 12:02:03,411 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 12:02:03,411 - Model - INFO - Test Class Accuracy: 81.57
+2022-12-02 12:02:03,411 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 12:02:03,411 - Model - INFO - Epoch 172 (172/300):
+2022-12-02 12:09:23,633 - Model - INFO - Train Instance Accuracy: 99.66, Loss: 0.631651
+2022-12-02 12:13:01,991 - Model - INFO - Test Single Accuracy: 83.76
+2022-12-02 12:13:01,991 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 12:13:01,991 - Model - INFO - Test Vote Accuracy: 84.39
+2022-12-02 12:13:01,991 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 12:13:01,991 - Model - INFO - Test Class Accuracy: 82.96
+2022-12-02 12:13:01,991 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 12:13:01,991 - Model - INFO - Epoch 173 (173/300):
+2022-12-02 12:20:19,078 - Model - INFO - Train Instance Accuracy: 99.53, Loss: 0.632650
+2022-12-02 12:23:55,577 - Model - INFO - Test Single Accuracy: 84.39
+2022-12-02 12:23:55,577 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 12:23:55,577 - Model - INFO - Test Vote Accuracy: 84.77
+2022-12-02 12:23:55,577 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 12:23:55,578 - Model - INFO - Test Class Accuracy: 83.05
+2022-12-02 12:23:55,578 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 12:23:55,578 - Model - INFO - Epoch 174 (174/300):
+2022-12-02 12:31:14,758 - Model - INFO - Train Instance Accuracy: 99.50, Loss: 0.632748
+2022-12-02 12:34:51,375 - Model - INFO - Test Single Accuracy: 84.56
+2022-12-02 12:34:51,375 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 12:34:51,376 - Model - INFO - Test Vote Accuracy: 85.08
+2022-12-02 12:34:51,376 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 12:34:51,376 - Model - INFO - Test Class Accuracy: 83.67
+2022-12-02 12:34:51,376 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 12:34:51,376 - Model - INFO - Epoch 175 (175/300):
+2022-12-02 12:42:08,475 - Model - INFO - Train Instance Accuracy: 99.46, Loss: 0.633981
+2022-12-02 12:45:46,503 - Model - INFO - Test Single Accuracy: 83.93
+2022-12-02 12:45:46,503 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 12:45:46,503 - Model - INFO - Test Vote Accuracy: 84.80
+2022-12-02 12:45:46,504 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 12:45:46,504 - Model - INFO - Test Class Accuracy: 83.18
+2022-12-02 12:45:46,504 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 12:45:46,504 - Model - INFO - Epoch 176 (176/300):
+2022-12-02 12:53:03,109 - Model - INFO - Train Instance Accuracy: 99.54, Loss: 0.634329
+2022-12-02 12:56:40,957 - Model - INFO - Test Single Accuracy: 83.10
+2022-12-02 12:56:40,957 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 12:56:40,957 - Model - INFO - Test Vote Accuracy: 83.52
+2022-12-02 12:56:40,957 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 12:56:40,957 - Model - INFO - Test Class Accuracy: 82.06
+2022-12-02 12:56:40,957 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 12:56:40,957 - Model - INFO - Epoch 177 (177/300):
+2022-12-02 13:03:59,086 - Model - INFO - Train Instance Accuracy: 99.60, Loss: 0.632730
+2022-12-02 13:07:33,935 - Model - INFO - Test Single Accuracy: 84.14
+2022-12-02 13:07:33,936 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 13:07:33,936 - Model - INFO - Test Vote Accuracy: 84.59
+2022-12-02 13:07:33,936 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 13:07:33,936 - Model - INFO - Test Class Accuracy: 82.33
+2022-12-02 13:07:33,937 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 13:07:33,937 - Model - INFO - Epoch 178 (178/300):
+2022-12-02 13:14:53,242 - Model - INFO - Train Instance Accuracy: 99.44, Loss: 0.635073
+2022-12-02 13:18:30,013 - Model - INFO - Test Single Accuracy: 84.04
+2022-12-02 13:18:30,013 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 13:18:30,013 - Model - INFO - Test Vote Accuracy: 84.46
+2022-12-02 13:18:30,013 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 13:18:30,013 - Model - INFO - Test Class Accuracy: 83.03
+2022-12-02 13:18:30,014 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 13:18:30,014 - Model - INFO - Epoch 179 (179/300):
+2022-12-02 13:24:54,598 - Model - INFO - Train Instance Accuracy: 99.62, Loss: 0.630084
+2022-12-02 13:28:02,375 - Model - INFO - Test Single Accuracy: 84.70
+2022-12-02 13:28:02,375 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 13:28:02,375 - Model - INFO - Test Vote Accuracy: 85.67
+2022-12-02 13:28:02,375 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 13:28:02,375 - Model - INFO - Test Class Accuracy: 84.01
+2022-12-02 13:28:02,375 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 13:28:02,375 - Model - INFO - Save model...
+2022-12-02 13:28:02,375 - Model - INFO - Saving at /home/chenru/wuwei/RepSurf/classification/log/ScanObjectNN/2022-12-01_03-11/checkpoints/best_model.pth
+2022-12-02 13:28:02,941 - Model - INFO - Epoch 180 (180/300):
+2022-12-02 13:34:28,065 - Model - INFO - Train Instance Accuracy: 99.58, Loss: 0.629849
+2022-12-02 13:37:36,241 - Model - INFO - Test Single Accuracy: 83.73
+2022-12-02 13:37:36,242 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 13:37:36,242 - Model - INFO - Test Vote Accuracy: 84.94
+2022-12-02 13:37:36,242 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 13:37:36,242 - Model - INFO - Test Class Accuracy: 83.49
+2022-12-02 13:37:36,242 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 13:37:36,243 - Model - INFO - Epoch 181 (181/300):
+2022-12-02 13:44:00,783 - Model - INFO - Train Instance Accuracy: 99.75, Loss: 0.627378
+2022-12-02 13:47:29,920 - Model - INFO - Test Single Accuracy: 83.97
+2022-12-02 13:47:29,920 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 13:47:29,920 - Model - INFO - Test Vote Accuracy: 85.11
+2022-12-02 13:47:29,920 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 13:47:29,920 - Model - INFO - Test Class Accuracy: 83.18
+2022-12-02 13:47:29,920 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 13:47:29,920 - Model - INFO - Epoch 182 (182/300):
+2022-12-02 13:54:48,028 - Model - INFO - Train Instance Accuracy: 99.67, Loss: 0.627976
+2022-12-02 13:58:24,633 - Model - INFO - Test Single Accuracy: 84.14
+2022-12-02 13:58:24,634 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 13:58:24,634 - Model - INFO - Test Vote Accuracy: 84.59
+2022-12-02 13:58:24,634 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 13:58:24,634 - Model - INFO - Test Class Accuracy: 83.06
+2022-12-02 13:58:24,634 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 13:58:24,634 - Model - INFO - Epoch 183 (183/300):
+2022-12-02 14:05:40,258 - Model - INFO - Train Instance Accuracy: 99.72, Loss: 0.628507
+2022-12-02 14:09:19,013 - Model - INFO - Test Single Accuracy: 84.35
+2022-12-02 14:09:19,014 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 14:09:19,014 - Model - INFO - Test Vote Accuracy: 84.77
+2022-12-02 14:09:19,014 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 14:09:19,014 - Model - INFO - Test Class Accuracy: 83.59
+2022-12-02 14:09:19,014 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 14:09:19,014 - Model - INFO - Epoch 184 (184/300):
+2022-12-02 14:16:36,788 - Model - INFO - Train Instance Accuracy: 99.47, Loss: 0.632921
+2022-12-02 14:20:14,221 - Model - INFO - Test Single Accuracy: 83.93
+2022-12-02 14:20:14,222 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 14:20:14,222 - Model - INFO - Test Vote Accuracy: 84.07
+2022-12-02 14:20:14,222 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 14:20:14,222 - Model - INFO - Test Class Accuracy: 82.32
+2022-12-02 14:20:14,222 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 14:20:14,222 - Model - INFO - Epoch 185 (185/300):
+2022-12-02 14:27:32,331 - Model - INFO - Train Instance Accuracy: 99.65, Loss: 0.629052
+2022-12-02 14:31:07,116 - Model - INFO - Test Single Accuracy: 83.69
+2022-12-02 14:31:07,116 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 14:31:07,116 - Model - INFO - Test Vote Accuracy: 84.70
+2022-12-02 14:31:07,116 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 14:31:07,116 - Model - INFO - Test Class Accuracy: 83.30
+2022-12-02 14:31:07,116 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 14:31:07,116 - Model - INFO - Epoch 186 (186/300):
+2022-12-02 14:38:20,629 - Model - INFO - Train Instance Accuracy: 99.61, Loss: 0.629421
+2022-12-02 14:41:58,568 - Model - INFO - Test Single Accuracy: 83.48
+2022-12-02 14:41:58,569 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 14:41:58,569 - Model - INFO - Test Vote Accuracy: 84.59
+2022-12-02 14:41:58,569 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 14:41:58,569 - Model - INFO - Test Class Accuracy: 83.01
+2022-12-02 14:41:58,569 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 14:41:58,569 - Model - INFO - Epoch 187 (187/300):
+2022-12-02 14:49:15,013 - Model - INFO - Train Instance Accuracy: 99.62, Loss: 0.629024
+2022-12-02 14:52:51,689 - Model - INFO - Test Single Accuracy: 84.49
+2022-12-02 14:52:51,689 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 14:52:51,690 - Model - INFO - Test Vote Accuracy: 85.39
+2022-12-02 14:52:51,690 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 14:52:51,690 - Model - INFO - Test Class Accuracy: 83.66
+2022-12-02 14:52:51,690 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 14:52:51,690 - Model - INFO - Epoch 188 (188/300):
+2022-12-02 15:00:09,185 - Model - INFO - Train Instance Accuracy: 99.61, Loss: 0.629802
+2022-12-02 15:03:44,092 - Model - INFO - Test Single Accuracy: 84.04
+2022-12-02 15:03:44,092 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 15:03:44,092 - Model - INFO - Test Vote Accuracy: 84.42
+2022-12-02 15:03:44,092 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 15:03:44,092 - Model - INFO - Test Class Accuracy: 83.19
+2022-12-02 15:03:44,092 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 15:03:44,092 - Model - INFO - Epoch 189 (189/300):
+2022-12-02 15:11:01,556 - Model - INFO - Train Instance Accuracy: 99.57, Loss: 0.630022
+2022-12-02 15:14:38,289 - Model - INFO - Test Single Accuracy: 84.59
+2022-12-02 15:14:38,290 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 15:14:38,290 - Model - INFO - Test Vote Accuracy: 85.18
+2022-12-02 15:14:38,290 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 15:14:38,290 - Model - INFO - Test Class Accuracy: 83.47
+2022-12-02 15:14:38,290 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 15:14:38,290 - Model - INFO - Epoch 190 (190/300):
+2022-12-02 15:21:55,227 - Model - INFO - Train Instance Accuracy: 99.68, Loss: 0.629228
+2022-12-02 15:25:32,892 - Model - INFO - Test Single Accuracy: 84.11
+2022-12-02 15:25:32,893 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 15:25:32,893 - Model - INFO - Test Vote Accuracy: 84.91
+2022-12-02 15:25:32,893 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 15:25:32,893 - Model - INFO - Test Class Accuracy: 83.42
+2022-12-02 15:25:32,893 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 15:25:32,893 - Model - INFO - Epoch 191 (191/300):
+2022-12-02 15:32:51,728 - Model - INFO - Train Instance Accuracy: 99.56, Loss: 0.630165
+2022-12-02 15:36:28,298 - Model - INFO - Test Single Accuracy: 84.32
+2022-12-02 15:36:28,298 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 15:36:28,299 - Model - INFO - Test Vote Accuracy: 85.05
+2022-12-02 15:36:28,299 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 15:36:28,299 - Model - INFO - Test Class Accuracy: 83.34
+2022-12-02 15:36:28,299 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 15:36:28,299 - Model - INFO - Epoch 192 (192/300):
+2022-12-02 15:43:48,488 - Model - INFO - Train Instance Accuracy: 99.68, Loss: 0.627639
+2022-12-02 15:47:26,027 - Model - INFO - Test Single Accuracy: 84.11
+2022-12-02 15:47:26,028 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 15:47:26,028 - Model - INFO - Test Vote Accuracy: 85.08
+2022-12-02 15:47:26,028 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 15:47:26,028 - Model - INFO - Test Class Accuracy: 83.84
+2022-12-02 15:47:26,028 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 15:47:26,028 - Model - INFO - Epoch 193 (193/300):
+2022-12-02 15:54:43,242 - Model - INFO - Train Instance Accuracy: 99.75, Loss: 0.627198
+2022-12-02 15:58:20,181 - Model - INFO - Test Single Accuracy: 83.62
+2022-12-02 15:58:20,181 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 15:58:20,181 - Model - INFO - Test Vote Accuracy: 84.59
+2022-12-02 15:58:20,182 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 15:58:20,182 - Model - INFO - Test Class Accuracy: 83.19
+2022-12-02 15:58:20,182 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 15:58:20,182 - Model - INFO - Epoch 194 (194/300):
+2022-12-02 16:05:40,716 - Model - INFO - Train Instance Accuracy: 99.72, Loss: 0.627297
+2022-12-02 16:09:17,430 - Model - INFO - Test Single Accuracy: 84.07
+2022-12-02 16:09:17,431 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 16:09:17,431 - Model - INFO - Test Vote Accuracy: 84.46
+2022-12-02 16:09:17,431 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 16:09:17,431 - Model - INFO - Test Class Accuracy: 82.58
+2022-12-02 16:09:17,431 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 16:09:17,431 - Model - INFO - Epoch 195 (195/300):
+2022-12-02 16:16:33,896 - Model - INFO - Train Instance Accuracy: 99.68, Loss: 0.627147
+2022-12-02 16:19:41,791 - Model - INFO - Test Single Accuracy: 84.49
+2022-12-02 16:19:41,791 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 16:19:41,791 - Model - INFO - Test Vote Accuracy: 84.87
+2022-12-02 16:19:41,791 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 16:19:41,791 - Model - INFO - Test Class Accuracy: 82.95
+2022-12-02 16:19:41,791 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 16:19:41,791 - Model - INFO - Epoch 196 (196/300):
+2022-12-02 16:26:09,890 - Model - INFO - Train Instance Accuracy: 99.54, Loss: 0.630062
+2022-12-02 16:29:17,494 - Model - INFO - Test Single Accuracy: 84.56
+2022-12-02 16:29:17,494 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 16:29:17,495 - Model - INFO - Test Vote Accuracy: 84.42
+2022-12-02 16:29:17,495 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 16:29:17,495 - Model - INFO - Test Class Accuracy: 82.95
+2022-12-02 16:29:17,495 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 16:29:17,495 - Model - INFO - Epoch 197 (197/300):
+2022-12-02 16:35:38,904 - Model - INFO - Train Instance Accuracy: 99.69, Loss: 0.626324
+2022-12-02 16:38:47,139 - Model - INFO - Test Single Accuracy: 83.87
+2022-12-02 16:38:47,140 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 16:38:47,140 - Model - INFO - Test Vote Accuracy: 84.87
+2022-12-02 16:38:47,140 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 16:38:47,140 - Model - INFO - Test Class Accuracy: 83.56
+2022-12-02 16:38:47,140 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 16:38:47,141 - Model - INFO - Epoch 198 (198/300):
+2022-12-02 16:45:28,369 - Model - INFO - Train Instance Accuracy: 99.48, Loss: 0.631260
+2022-12-02 16:49:06,363 - Model - INFO - Test Single Accuracy: 84.00
+2022-12-02 16:49:06,364 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 16:49:06,364 - Model - INFO - Test Vote Accuracy: 84.94
+2022-12-02 16:49:06,364 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 16:49:06,364 - Model - INFO - Test Class Accuracy: 83.43
+2022-12-02 16:49:06,364 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 16:49:06,364 - Model - INFO - Epoch 199 (199/300):
+2022-12-02 16:56:22,897 - Model - INFO - Train Instance Accuracy: 99.63, Loss: 0.627463
+2022-12-02 16:59:59,342 - Model - INFO - Test Single Accuracy: 83.62
+2022-12-02 16:59:59,342 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 16:59:59,342 - Model - INFO - Test Vote Accuracy: 84.77
+2022-12-02 16:59:59,343 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 16:59:59,343 - Model - INFO - Test Class Accuracy: 83.55
+2022-12-02 16:59:59,343 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 16:59:59,343 - Model - INFO - Epoch 200 (200/300):
+2022-12-02 17:07:16,693 - Model - INFO - Train Instance Accuracy: 99.61, Loss: 0.628380
+2022-12-02 17:10:53,386 - Model - INFO - Test Single Accuracy: 83.80
+2022-12-02 17:10:53,386 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 17:10:53,386 - Model - INFO - Test Vote Accuracy: 84.70
+2022-12-02 17:10:53,386 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 17:10:53,386 - Model - INFO - Test Class Accuracy: 83.15
+2022-12-02 17:10:53,386 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 17:10:53,386 - Model - INFO - Epoch 201 (201/300):
+2022-12-02 17:18:10,004 - Model - INFO - Train Instance Accuracy: 99.75, Loss: 0.626090
+2022-12-02 17:21:47,404 - Model - INFO - Test Single Accuracy: 83.87
+2022-12-02 17:21:47,404 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 17:21:47,405 - Model - INFO - Test Vote Accuracy: 84.52
+2022-12-02 17:21:47,405 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 17:21:47,405 - Model - INFO - Test Class Accuracy: 83.08
+2022-12-02 17:21:47,405 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 17:21:47,405 - Model - INFO - Epoch 202 (202/300):
+2022-12-02 17:29:04,061 - Model - INFO - Train Instance Accuracy: 99.72, Loss: 0.626472
+2022-12-02 17:32:42,826 - Model - INFO - Test Single Accuracy: 84.04
+2022-12-02 17:32:42,826 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 17:32:42,826 - Model - INFO - Test Vote Accuracy: 84.59
+2022-12-02 17:32:42,827 - Model - INFO - Best Vote Accuracy: 85.67
+2022-12-02 17:32:42,827 - Model - INFO - Test Class Accuracy: 83.25
+2022-12-02 17:32:42,827 - Model - INFO - Best Class Accuracy: 84.04
+2022-12-02 17:32:42,827 - Model - INFO - Epoch 203 (203/300):
+2022-12-02 17:40:02,349 - Model - INFO - Train Instance Accuracy: 99.83, Loss: 0.623743
+2022-12-02 17:43:39,350 - Model - INFO - Test Single Accuracy: 84.77
+2022-12-02 17:43:39,350 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 17:43:39,350 - Model - INFO - Test Vote Accuracy: 85.84
+2022-12-02 17:43:39,350 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 17:43:39,350 - Model - INFO - Test Class Accuracy: 84.27
+2022-12-02 17:43:39,350 - Model - INFO - Best Class Accuracy: 84.27
+2022-12-02 17:43:39,350 - Model - INFO - Save model...
+2022-12-02 17:43:39,350 - Model - INFO - Saving at /home/chenru/wuwei/RepSurf/classification/log/ScanObjectNN/2022-12-01_03-11/checkpoints/best_model.pth
+2022-12-02 17:43:40,278 - Model - INFO - Epoch 204 (204/300):
+2022-12-02 17:50:58,246 - Model - INFO - Train Instance Accuracy: 99.77, Loss: 0.625126
+2022-12-02 17:54:35,012 - Model - INFO - Test Single Accuracy: 84.11
+2022-12-02 17:54:35,012 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 17:54:35,012 - Model - INFO - Test Vote Accuracy: 84.56
+2022-12-02 17:54:35,012 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 17:54:35,012 - Model - INFO - Test Class Accuracy: 83.31
+2022-12-02 17:54:35,012 - Model - INFO - Best Class Accuracy: 84.27
+2022-12-02 17:54:35,012 - Model - INFO - Epoch 205 (205/300):
+2022-12-02 18:01:49,454 - Model - INFO - Train Instance Accuracy: 99.71, Loss: 0.624846
+2022-12-02 18:05:27,021 - Model - INFO - Test Single Accuracy: 83.93
+2022-12-02 18:05:27,021 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 18:05:27,021 - Model - INFO - Test Vote Accuracy: 84.94
+2022-12-02 18:05:27,021 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 18:05:27,021 - Model - INFO - Test Class Accuracy: 83.35
+2022-12-02 18:05:27,021 - Model - INFO - Best Class Accuracy: 84.27
+2022-12-02 18:05:27,021 - Model - INFO - Epoch 206 (206/300):
+2022-12-02 18:12:43,023 - Model - INFO - Train Instance Accuracy: 99.76, Loss: 0.623607
+2022-12-02 18:16:20,513 - Model - INFO - Test Single Accuracy: 84.52
+2022-12-02 18:16:20,514 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 18:16:20,514 - Model - INFO - Test Vote Accuracy: 84.73
+2022-12-02 18:16:20,514 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 18:16:20,514 - Model - INFO - Test Class Accuracy: 83.11
+2022-12-02 18:16:20,514 - Model - INFO - Best Class Accuracy: 84.27
+2022-12-02 18:16:20,514 - Model - INFO - Epoch 207 (207/300):
+2022-12-02 18:23:38,047 - Model - INFO - Train Instance Accuracy: 99.75, Loss: 0.625639
+2022-12-02 18:27:15,600 - Model - INFO - Test Single Accuracy: 84.70
+2022-12-02 18:27:15,600 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 18:27:15,600 - Model - INFO - Test Vote Accuracy: 85.18
+2022-12-02 18:27:15,600 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 18:27:15,600 - Model - INFO - Test Class Accuracy: 83.58
+2022-12-02 18:27:15,600 - Model - INFO - Best Class Accuracy: 84.27
+2022-12-02 18:27:15,601 - Model - INFO - Epoch 208 (208/300):
+2022-12-02 18:34:33,818 - Model - INFO - Train Instance Accuracy: 99.65, Loss: 0.627865
+2022-12-02 18:38:11,401 - Model - INFO - Test Single Accuracy: 84.63
+2022-12-02 18:38:11,402 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 18:38:11,402 - Model - INFO - Test Vote Accuracy: 85.50
+2022-12-02 18:38:11,402 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 18:38:11,402 - Model - INFO - Test Class Accuracy: 84.04
+2022-12-02 18:38:11,402 - Model - INFO - Best Class Accuracy: 84.27
+2022-12-02 18:38:11,403 - Model - INFO - Epoch 209 (209/300):
+2022-12-02 18:45:30,466 - Model - INFO - Train Instance Accuracy: 99.73, Loss: 0.626143
+2022-12-02 18:49:07,810 - Model - INFO - Test Single Accuracy: 83.90
+2022-12-02 18:49:07,810 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 18:49:07,810 - Model - INFO - Test Vote Accuracy: 84.84
+2022-12-02 18:49:07,810 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 18:49:07,810 - Model - INFO - Test Class Accuracy: 83.12
+2022-12-02 18:49:07,810 - Model - INFO - Best Class Accuracy: 84.27
+2022-12-02 18:49:07,810 - Model - INFO - Epoch 210 (210/300):
+2022-12-02 18:56:29,287 - Model - INFO - Train Instance Accuracy: 99.77, Loss: 0.624899
+2022-12-02 19:00:05,844 - Model - INFO - Test Single Accuracy: 84.25
+2022-12-02 19:00:05,844 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 19:00:05,844 - Model - INFO - Test Vote Accuracy: 84.73
+2022-12-02 19:00:05,844 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 19:00:05,845 - Model - INFO - Test Class Accuracy: 82.87
+2022-12-02 19:00:05,845 - Model - INFO - Best Class Accuracy: 84.27
+2022-12-02 19:00:05,845 - Model - INFO - Epoch 211 (211/300):
+2022-12-02 19:07:18,064 - Model - INFO - Train Instance Accuracy: 99.76, Loss: 0.625103
+2022-12-02 19:10:54,763 - Model - INFO - Test Single Accuracy: 84.21
+2022-12-02 19:10:54,764 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 19:10:54,764 - Model - INFO - Test Vote Accuracy: 84.94
+2022-12-02 19:10:54,764 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 19:10:54,764 - Model - INFO - Test Class Accuracy: 83.91
+2022-12-02 19:10:54,765 - Model - INFO - Best Class Accuracy: 84.27
+2022-12-02 19:10:54,765 - Model - INFO - Epoch 212 (212/300):
+2022-12-02 19:17:48,750 - Model - INFO - Train Instance Accuracy: 99.69, Loss: 0.625230
+2022-12-02 19:20:56,021 - Model - INFO - Test Single Accuracy: 84.21
+2022-12-02 19:20:56,021 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 19:20:56,021 - Model - INFO - Test Vote Accuracy: 85.53
+2022-12-02 19:20:56,022 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 19:20:56,022 - Model - INFO - Test Class Accuracy: 84.30
+2022-12-02 19:20:56,022 - Model - INFO - Best Class Accuracy: 84.30
+2022-12-02 19:20:56,022 - Model - INFO - Epoch 213 (213/300):
+2022-12-02 19:27:20,974 - Model - INFO - Train Instance Accuracy: 99.77, Loss: 0.624660
+2022-12-02 19:30:30,166 - Model - INFO - Test Single Accuracy: 84.35
+2022-12-02 19:30:30,166 - Model - INFO - Best Single Accuracy: 84.91
+2022-12-02 19:30:30,166 - Model - INFO - Test Vote Accuracy: 84.80
+2022-12-02 19:30:30,166 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 19:30:30,166 - Model - INFO - Test Class Accuracy: 82.83
+2022-12-02 19:30:30,166 - Model - INFO - Best Class Accuracy: 84.30
+2022-12-02 19:30:30,166 - Model - INFO - Epoch 214 (214/300):
+2022-12-02 19:36:51,661 - Model - INFO - Train Instance Accuracy: 99.76, Loss: 0.624622
+2022-12-02 19:39:58,782 - Model - INFO - Test Single Accuracy: 85.15
+2022-12-02 19:39:58,783 - Model - INFO - Best Single Accuracy: 85.15
+2022-12-02 19:39:58,783 - Model - INFO - Test Vote Accuracy: 85.60
+2022-12-02 19:39:58,783 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 19:39:58,783 - Model - INFO - Test Class Accuracy: 84.04
+2022-12-02 19:39:58,783 - Model - INFO - Best Class Accuracy: 84.30
+2022-12-02 19:39:58,783 - Model - INFO - Epoch 215 (215/300):
+2022-12-02 19:47:05,576 - Model - INFO - Train Instance Accuracy: 99.73, Loss: 0.624969
+2022-12-02 19:50:42,733 - Model - INFO - Test Single Accuracy: 84.56
+2022-12-02 19:50:42,733 - Model - INFO - Best Single Accuracy: 85.15
+2022-12-02 19:50:42,733 - Model - INFO - Test Vote Accuracy: 84.94
+2022-12-02 19:50:42,734 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 19:50:42,734 - Model - INFO - Test Class Accuracy: 83.50
+2022-12-02 19:50:42,734 - Model - INFO - Best Class Accuracy: 84.30
+2022-12-02 19:50:42,734 - Model - INFO - Epoch 216 (216/300):
+2022-12-02 19:58:00,588 - Model - INFO - Train Instance Accuracy: 99.81, Loss: 0.624624
+2022-12-02 20:01:39,121 - Model - INFO - Test Single Accuracy: 84.56
+2022-12-02 20:01:39,122 - Model - INFO - Best Single Accuracy: 85.15
+2022-12-02 20:01:39,122 - Model - INFO - Test Vote Accuracy: 85.11
+2022-12-02 20:01:39,122 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 20:01:39,122 - Model - INFO - Test Class Accuracy: 83.26
+2022-12-02 20:01:39,122 - Model - INFO - Best Class Accuracy: 84.30
+2022-12-02 20:01:39,122 - Model - INFO - Epoch 217 (217/300):
+2022-12-02 20:08:54,420 - Model - INFO - Train Instance Accuracy: 99.81, Loss: 0.623204
+2022-12-02 20:12:30,395 - Model - INFO - Test Single Accuracy: 84.77
+2022-12-02 20:12:30,395 - Model - INFO - Best Single Accuracy: 85.15
+2022-12-02 20:12:30,395 - Model - INFO - Test Vote Accuracy: 85.36
+2022-12-02 20:12:30,396 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 20:12:30,396 - Model - INFO - Test Class Accuracy: 83.65
+2022-12-02 20:12:30,396 - Model - INFO - Best Class Accuracy: 84.30
+2022-12-02 20:12:30,396 - Model - INFO - Epoch 218 (218/300):
+2022-12-02 20:19:49,239 - Model - INFO - Train Instance Accuracy: 99.74, Loss: 0.624478
+2022-12-02 20:23:26,369 - Model - INFO - Test Single Accuracy: 84.32
+2022-12-02 20:23:26,369 - Model - INFO - Best Single Accuracy: 85.15
+2022-12-02 20:23:26,369 - Model - INFO - Test Vote Accuracy: 85.15
+2022-12-02 20:23:26,369 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 20:23:26,370 - Model - INFO - Test Class Accuracy: 83.77
+2022-12-02 20:23:26,370 - Model - INFO - Best Class Accuracy: 84.30
+2022-12-02 20:23:26,370 - Model - INFO - Epoch 219 (219/300):
+2022-12-02 20:30:44,129 - Model - INFO - Train Instance Accuracy: 99.73, Loss: 0.623785
+2022-12-02 20:34:22,608 - Model - INFO - Test Single Accuracy: 83.93
+2022-12-02 20:34:22,608 - Model - INFO - Best Single Accuracy: 85.15
+2022-12-02 20:34:22,609 - Model - INFO - Test Vote Accuracy: 84.84
+2022-12-02 20:34:22,609 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 20:34:22,609 - Model - INFO - Test Class Accuracy: 83.31
+2022-12-02 20:34:22,609 - Model - INFO - Best Class Accuracy: 84.30
+2022-12-02 20:34:22,609 - Model - INFO - Epoch 220 (220/300):
+2022-12-02 20:41:39,227 - Model - INFO - Train Instance Accuracy: 99.75, Loss: 0.624291
+2022-12-02 20:45:15,979 - Model - INFO - Test Single Accuracy: 83.83
+2022-12-02 20:45:15,980 - Model - INFO - Best Single Accuracy: 85.15
+2022-12-02 20:45:15,980 - Model - INFO - Test Vote Accuracy: 84.87
+2022-12-02 20:45:15,980 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 20:45:15,980 - Model - INFO - Test Class Accuracy: 83.74
+2022-12-02 20:45:15,980 - Model - INFO - Best Class Accuracy: 84.30
+2022-12-02 20:45:15,980 - Model - INFO - Epoch 221 (221/300):
+2022-12-02 20:52:32,988 - Model - INFO - Train Instance Accuracy: 99.78, Loss: 0.623539
+2022-12-02 20:56:10,785 - Model - INFO - Test Single Accuracy: 84.56
+2022-12-02 20:56:10,786 - Model - INFO - Best Single Accuracy: 85.15
+2022-12-02 20:56:10,786 - Model - INFO - Test Vote Accuracy: 84.84
+2022-12-02 20:56:10,786 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 20:56:10,786 - Model - INFO - Test Class Accuracy: 83.15
+2022-12-02 20:56:10,786 - Model - INFO - Best Class Accuracy: 84.30
+2022-12-02 20:56:10,786 - Model - INFO - Epoch 222 (222/300):
+2022-12-02 21:03:23,587 - Model - INFO - Train Instance Accuracy: 99.77, Loss: 0.623269
+2022-12-02 21:07:01,716 - Model - INFO - Test Single Accuracy: 84.59
+2022-12-02 21:07:01,717 - Model - INFO - Best Single Accuracy: 85.15
+2022-12-02 21:07:01,717 - Model - INFO - Test Vote Accuracy: 84.91
+2022-12-02 21:07:01,717 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 21:07:01,717 - Model - INFO - Test Class Accuracy: 83.65
+2022-12-02 21:07:01,717 - Model - INFO - Best Class Accuracy: 84.30
+2022-12-02 21:07:01,717 - Model - INFO - Epoch 223 (223/300):
+2022-12-02 21:14:16,625 - Model - INFO - Train Instance Accuracy: 99.82, Loss: 0.622785
+2022-12-02 21:17:53,046 - Model - INFO - Test Single Accuracy: 84.25
+2022-12-02 21:17:53,046 - Model - INFO - Best Single Accuracy: 85.15
+2022-12-02 21:17:53,046 - Model - INFO - Test Vote Accuracy: 84.63
+2022-12-02 21:17:53,047 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 21:17:53,047 - Model - INFO - Test Class Accuracy: 83.12
+2022-12-02 21:17:53,047 - Model - INFO - Best Class Accuracy: 84.30
+2022-12-02 21:17:53,047 - Model - INFO - Epoch 224 (224/300):
+2022-12-02 21:25:08,471 - Model - INFO - Train Instance Accuracy: 99.81, Loss: 0.622780
+2022-12-02 21:28:45,320 - Model - INFO - Test Single Accuracy: 84.49
+2022-12-02 21:28:45,321 - Model - INFO - Best Single Accuracy: 85.15
+2022-12-02 21:28:45,321 - Model - INFO - Test Vote Accuracy: 85.11
+2022-12-02 21:28:45,321 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 21:28:45,321 - Model - INFO - Test Class Accuracy: 83.57
+2022-12-02 21:28:45,321 - Model - INFO - Best Class Accuracy: 84.30
+2022-12-02 21:28:45,322 - Model - INFO - Epoch 225 (225/300):
+2022-12-02 21:36:02,203 - Model - INFO - Train Instance Accuracy: 99.75, Loss: 0.624166
+2022-12-02 21:39:39,254 - Model - INFO - Test Single Accuracy: 83.83
+2022-12-02 21:39:39,254 - Model - INFO - Best Single Accuracy: 85.15
+2022-12-02 21:39:39,255 - Model - INFO - Test Vote Accuracy: 85.32
+2022-12-02 21:39:39,255 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 21:39:39,255 - Model - INFO - Test Class Accuracy: 83.90
+2022-12-02 21:39:39,255 - Model - INFO - Best Class Accuracy: 84.30
+2022-12-02 21:39:39,255 - Model - INFO - Epoch 226 (226/300):
+2022-12-02 21:46:55,433 - Model - INFO - Train Instance Accuracy: 99.76, Loss: 0.623473
+2022-12-02 21:50:33,052 - Model - INFO - Test Single Accuracy: 84.52
+2022-12-02 21:50:33,052 - Model - INFO - Best Single Accuracy: 85.15
+2022-12-02 21:50:33,052 - Model - INFO - Test Vote Accuracy: 84.98
+2022-12-02 21:50:33,052 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 21:50:33,052 - Model - INFO - Test Class Accuracy: 83.44
+2022-12-02 21:50:33,052 - Model - INFO - Best Class Accuracy: 84.30
+2022-12-02 21:50:33,053 - Model - INFO - Epoch 227 (227/300):
+2022-12-02 21:57:48,586 - Model - INFO - Train Instance Accuracy: 99.79, Loss: 0.622583
+2022-12-02 22:01:27,323 - Model - INFO - Test Single Accuracy: 84.52
+2022-12-02 22:01:27,324 - Model - INFO - Best Single Accuracy: 85.15
+2022-12-02 22:01:27,324 - Model - INFO - Test Vote Accuracy: 85.29
+2022-12-02 22:01:27,324 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 22:01:27,324 - Model - INFO - Test Class Accuracy: 84.06
+2022-12-02 22:01:27,324 - Model - INFO - Best Class Accuracy: 84.30
+2022-12-02 22:01:27,324 - Model - INFO - Epoch 228 (228/300):
+2022-12-02 22:08:42,631 - Model - INFO - Train Instance Accuracy: 99.86, Loss: 0.620841
+2022-12-02 22:12:20,282 - Model - INFO - Test Single Accuracy: 85.08
+2022-12-02 22:12:20,282 - Model - INFO - Best Single Accuracy: 85.15
+2022-12-02 22:12:20,283 - Model - INFO - Test Vote Accuracy: 84.46
+2022-12-02 22:12:20,283 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 22:12:20,283 - Model - INFO - Test Class Accuracy: 83.08
+2022-12-02 22:12:20,283 - Model - INFO - Best Class Accuracy: 84.30
+2022-12-02 22:12:20,283 - Model - INFO - Epoch 229 (229/300):
+2022-12-02 22:18:51,015 - Model - INFO - Train Instance Accuracy: 99.73, Loss: 0.623802
+2022-12-02 22:21:58,458 - Model - INFO - Test Single Accuracy: 84.00
+2022-12-02 22:21:58,459 - Model - INFO - Best Single Accuracy: 85.15
+2022-12-02 22:21:58,459 - Model - INFO - Test Vote Accuracy: 85.29
+2022-12-02 22:21:58,459 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 22:21:58,459 - Model - INFO - Test Class Accuracy: 83.25
+2022-12-02 22:21:58,459 - Model - INFO - Best Class Accuracy: 84.30
+2022-12-02 22:21:58,459 - Model - INFO - Epoch 230 (230/300):
+2022-12-02 22:28:23,452 - Model - INFO - Train Instance Accuracy: 99.75, Loss: 0.622079
+2022-12-02 22:31:32,384 - Model - INFO - Test Single Accuracy: 85.22
+2022-12-02 22:31:32,385 - Model - INFO - Best Single Accuracy: 85.22
+2022-12-02 22:31:32,385 - Model - INFO - Test Vote Accuracy: 85.50
+2022-12-02 22:31:32,385 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 22:31:32,385 - Model - INFO - Test Class Accuracy: 83.91
+2022-12-02 22:31:32,385 - Model - INFO - Best Class Accuracy: 84.30
+2022-12-02 22:31:32,386 - Model - INFO - Epoch 231 (231/300):
+2022-12-02 22:38:00,349 - Model - INFO - Train Instance Accuracy: 99.82, Loss: 0.622661
+2022-12-02 22:41:22,182 - Model - INFO - Test Single Accuracy: 84.56
+2022-12-02 22:41:22,183 - Model - INFO - Best Single Accuracy: 85.22
+2022-12-02 22:41:22,183 - Model - INFO - Test Vote Accuracy: 85.43
+2022-12-02 22:41:22,183 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 22:41:22,183 - Model - INFO - Test Class Accuracy: 83.74
+2022-12-02 22:41:22,183 - Model - INFO - Best Class Accuracy: 84.30
+2022-12-02 22:41:22,183 - Model - INFO - Epoch 232 (232/300):
+2022-12-02 22:48:36,833 - Model - INFO - Train Instance Accuracy: 99.79, Loss: 0.621543
+2022-12-02 22:52:12,679 - Model - INFO - Test Single Accuracy: 84.14
+2022-12-02 22:52:12,680 - Model - INFO - Best Single Accuracy: 85.22
+2022-12-02 22:52:12,680 - Model - INFO - Test Vote Accuracy: 84.70
+2022-12-02 22:52:12,680 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 22:52:12,681 - Model - INFO - Test Class Accuracy: 83.17
+2022-12-02 22:52:12,681 - Model - INFO - Best Class Accuracy: 84.30
+2022-12-02 22:52:12,681 - Model - INFO - Epoch 233 (233/300):
+2022-12-02 22:59:29,971 - Model - INFO - Train Instance Accuracy: 99.78, Loss: 0.622864
+2022-12-02 23:03:06,753 - Model - INFO - Test Single Accuracy: 84.63
+2022-12-02 23:03:06,754 - Model - INFO - Best Single Accuracy: 85.22
+2022-12-02 23:03:06,754 - Model - INFO - Test Vote Accuracy: 85.67
+2022-12-02 23:03:06,754 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 23:03:06,754 - Model - INFO - Test Class Accuracy: 84.40
+2022-12-02 23:03:06,754 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-02 23:03:06,754 - Model - INFO - Epoch 234 (234/300):
+2022-12-02 23:10:24,602 - Model - INFO - Train Instance Accuracy: 99.80, Loss: 0.623301
+2022-12-02 23:14:02,042 - Model - INFO - Test Single Accuracy: 84.52
+2022-12-02 23:14:02,043 - Model - INFO - Best Single Accuracy: 85.22
+2022-12-02 23:14:02,043 - Model - INFO - Test Vote Accuracy: 85.53
+2022-12-02 23:14:02,043 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 23:14:02,043 - Model - INFO - Test Class Accuracy: 84.10
+2022-12-02 23:14:02,044 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-02 23:14:02,044 - Model - INFO - Epoch 235 (235/300):
+2022-12-02 23:21:18,196 - Model - INFO - Train Instance Accuracy: 99.85, Loss: 0.621289
+2022-12-02 23:24:53,365 - Model - INFO - Test Single Accuracy: 84.04
+2022-12-02 23:24:53,366 - Model - INFO - Best Single Accuracy: 85.22
+2022-12-02 23:24:53,366 - Model - INFO - Test Vote Accuracy: 85.50
+2022-12-02 23:24:53,366 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 23:24:53,366 - Model - INFO - Test Class Accuracy: 83.97
+2022-12-02 23:24:53,366 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-02 23:24:53,366 - Model - INFO - Epoch 236 (236/300):
+2022-12-02 23:32:15,468 - Model - INFO - Train Instance Accuracy: 99.81, Loss: 0.622327
+2022-12-02 23:35:53,096 - Model - INFO - Test Single Accuracy: 84.46
+2022-12-02 23:35:53,097 - Model - INFO - Best Single Accuracy: 85.22
+2022-12-02 23:35:53,097 - Model - INFO - Test Vote Accuracy: 84.80
+2022-12-02 23:35:53,097 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 23:35:53,097 - Model - INFO - Test Class Accuracy: 83.45
+2022-12-02 23:35:53,097 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-02 23:35:53,097 - Model - INFO - Epoch 237 (237/300):
+2022-12-02 23:43:09,567 - Model - INFO - Train Instance Accuracy: 99.77, Loss: 0.623344
+2022-12-02 23:46:46,353 - Model - INFO - Test Single Accuracy: 84.73
+2022-12-02 23:46:46,353 - Model - INFO - Best Single Accuracy: 85.22
+2022-12-02 23:46:46,353 - Model - INFO - Test Vote Accuracy: 85.15
+2022-12-02 23:46:46,353 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 23:46:46,353 - Model - INFO - Test Class Accuracy: 83.60
+2022-12-02 23:46:46,353 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-02 23:46:46,353 - Model - INFO - Epoch 238 (238/300):
+2022-12-02 23:54:03,192 - Model - INFO - Train Instance Accuracy: 99.81, Loss: 0.622711
+2022-12-02 23:57:37,503 - Model - INFO - Test Single Accuracy: 84.66
+2022-12-02 23:57:37,504 - Model - INFO - Best Single Accuracy: 85.22
+2022-12-02 23:57:37,504 - Model - INFO - Test Vote Accuracy: 84.77
+2022-12-02 23:57:37,504 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-02 23:57:37,504 - Model - INFO - Test Class Accuracy: 83.42
+2022-12-02 23:57:37,504 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-02 23:57:37,505 - Model - INFO - Epoch 239 (239/300):
+2022-12-03 00:04:56,914 - Model - INFO - Train Instance Accuracy: 99.77, Loss: 0.621800
+2022-12-03 00:08:34,742 - Model - INFO - Test Single Accuracy: 84.28
+2022-12-03 00:08:34,743 - Model - INFO - Best Single Accuracy: 85.22
+2022-12-03 00:08:34,743 - Model - INFO - Test Vote Accuracy: 84.70
+2022-12-03 00:08:34,743 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 00:08:34,743 - Model - INFO - Test Class Accuracy: 83.33
+2022-12-03 00:08:34,743 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 00:08:34,744 - Model - INFO - Epoch 240 (240/300):
+2022-12-03 00:15:52,847 - Model - INFO - Train Instance Accuracy: 99.80, Loss: 0.621085
+2022-12-03 00:19:30,152 - Model - INFO - Test Single Accuracy: 84.70
+2022-12-03 00:19:30,152 - Model - INFO - Best Single Accuracy: 85.22
+2022-12-03 00:19:30,153 - Model - INFO - Test Vote Accuracy: 85.67
+2022-12-03 00:19:30,153 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 00:19:30,153 - Model - INFO - Test Class Accuracy: 84.21
+2022-12-03 00:19:30,153 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 00:19:30,153 - Model - INFO - Epoch 241 (241/300):
+2022-12-03 00:26:47,895 - Model - INFO - Train Instance Accuracy: 99.81, Loss: 0.622393
+2022-12-03 00:30:24,642 - Model - INFO - Test Single Accuracy: 83.87
+2022-12-03 00:30:24,642 - Model - INFO - Best Single Accuracy: 85.22
+2022-12-03 00:30:24,642 - Model - INFO - Test Vote Accuracy: 84.52
+2022-12-03 00:30:24,642 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 00:30:24,643 - Model - INFO - Test Class Accuracy: 83.09
+2022-12-03 00:30:24,643 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 00:30:24,643 - Model - INFO - Epoch 242 (242/300):
+2022-12-03 00:37:43,691 - Model - INFO - Train Instance Accuracy: 99.85, Loss: 0.620965
+2022-12-03 00:41:22,019 - Model - INFO - Test Single Accuracy: 83.76
+2022-12-03 00:41:22,019 - Model - INFO - Best Single Accuracy: 85.22
+2022-12-03 00:41:22,020 - Model - INFO - Test Vote Accuracy: 85.05
+2022-12-03 00:41:22,020 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 00:41:22,020 - Model - INFO - Test Class Accuracy: 83.78
+2022-12-03 00:41:22,020 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 00:41:22,020 - Model - INFO - Epoch 243 (243/300):
+2022-12-03 00:48:39,497 - Model - INFO - Train Instance Accuracy: 99.86, Loss: 0.621240
+2022-12-03 00:52:16,286 - Model - INFO - Test Single Accuracy: 84.98
+2022-12-03 00:52:16,286 - Model - INFO - Best Single Accuracy: 85.22
+2022-12-03 00:52:16,286 - Model - INFO - Test Vote Accuracy: 85.67
+2022-12-03 00:52:16,286 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 00:52:16,286 - Model - INFO - Test Class Accuracy: 84.27
+2022-12-03 00:52:16,286 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 00:52:16,286 - Model - INFO - Epoch 244 (244/300):
+2022-12-03 00:59:34,201 - Model - INFO - Train Instance Accuracy: 99.87, Loss: 0.621414
+2022-12-03 01:03:10,469 - Model - INFO - Test Single Accuracy: 84.52
+2022-12-03 01:03:10,470 - Model - INFO - Best Single Accuracy: 85.22
+2022-12-03 01:03:10,470 - Model - INFO - Test Vote Accuracy: 85.50
+2022-12-03 01:03:10,470 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 01:03:10,470 - Model - INFO - Test Class Accuracy: 84.15
+2022-12-03 01:03:10,470 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 01:03:10,470 - Model - INFO - Epoch 245 (245/300):
+2022-12-03 01:10:31,481 - Model - INFO - Train Instance Accuracy: 99.77, Loss: 0.621978
+2022-12-03 01:13:54,781 - Model - INFO - Test Single Accuracy: 84.42
+2022-12-03 01:13:54,782 - Model - INFO - Best Single Accuracy: 85.22
+2022-12-03 01:13:54,782 - Model - INFO - Test Vote Accuracy: 85.43
+2022-12-03 01:13:54,782 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 01:13:54,782 - Model - INFO - Test Class Accuracy: 83.74
+2022-12-03 01:13:54,782 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 01:13:54,783 - Model - INFO - Epoch 246 (246/300):
+2022-12-03 01:20:22,086 - Model - INFO - Train Instance Accuracy: 99.86, Loss: 0.621814
+2022-12-03 01:23:32,122 - Model - INFO - Test Single Accuracy: 84.46
+2022-12-03 01:23:32,123 - Model - INFO - Best Single Accuracy: 85.22
+2022-12-03 01:23:32,123 - Model - INFO - Test Vote Accuracy: 85.05
+2022-12-03 01:23:32,123 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 01:23:32,124 - Model - INFO - Test Class Accuracy: 83.50
+2022-12-03 01:23:32,124 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 01:23:32,124 - Model - INFO - Epoch 247 (247/300):
+2022-12-03 01:29:58,676 - Model - INFO - Train Instance Accuracy: 99.85, Loss: 0.620338
+2022-12-03 01:33:08,202 - Model - INFO - Test Single Accuracy: 84.52
+2022-12-03 01:33:08,202 - Model - INFO - Best Single Accuracy: 85.22
+2022-12-03 01:33:08,202 - Model - INFO - Test Vote Accuracy: 85.11
+2022-12-03 01:33:08,203 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 01:33:08,203 - Model - INFO - Test Class Accuracy: 82.75
+2022-12-03 01:33:08,203 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 01:33:08,203 - Model - INFO - Epoch 248 (248/300):
+2022-12-03 01:39:40,853 - Model - INFO - Train Instance Accuracy: 99.79, Loss: 0.620994
+2022-12-03 01:43:19,990 - Model - INFO - Test Single Accuracy: 83.90
+2022-12-03 01:43:19,990 - Model - INFO - Best Single Accuracy: 85.22
+2022-12-03 01:43:19,990 - Model - INFO - Test Vote Accuracy: 84.35
+2022-12-03 01:43:19,990 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 01:43:19,991 - Model - INFO - Test Class Accuracy: 82.69
+2022-12-03 01:43:19,991 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 01:43:19,991 - Model - INFO - Epoch 249 (249/300):
+2022-12-03 01:50:40,703 - Model - INFO - Train Instance Accuracy: 99.85, Loss: 0.619572
+2022-12-03 01:54:16,724 - Model - INFO - Test Single Accuracy: 84.32
+2022-12-03 01:54:16,724 - Model - INFO - Best Single Accuracy: 85.22
+2022-12-03 01:54:16,725 - Model - INFO - Test Vote Accuracy: 85.22
+2022-12-03 01:54:16,725 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 01:54:16,725 - Model - INFO - Test Class Accuracy: 83.43
+2022-12-03 01:54:16,725 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 01:54:16,725 - Model - INFO - Epoch 250 (250/300):
+2022-12-03 02:01:34,043 - Model - INFO - Train Instance Accuracy: 99.80, Loss: 0.622640
+2022-12-03 02:05:10,123 - Model - INFO - Test Single Accuracy: 83.76
+2022-12-03 02:05:10,124 - Model - INFO - Best Single Accuracy: 85.22
+2022-12-03 02:05:10,124 - Model - INFO - Test Vote Accuracy: 84.32
+2022-12-03 02:05:10,124 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 02:05:10,124 - Model - INFO - Test Class Accuracy: 82.54
+2022-12-03 02:05:10,124 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 02:05:10,124 - Model - INFO - Epoch 251 (251/300):
+2022-12-03 02:12:25,781 - Model - INFO - Train Instance Accuracy: 99.85, Loss: 0.619906
+2022-12-03 02:16:04,116 - Model - INFO - Test Single Accuracy: 84.25
+2022-12-03 02:16:04,117 - Model - INFO - Best Single Accuracy: 85.22
+2022-12-03 02:16:04,117 - Model - INFO - Test Vote Accuracy: 84.94
+2022-12-03 02:16:04,117 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 02:16:04,117 - Model - INFO - Test Class Accuracy: 83.27
+2022-12-03 02:16:04,117 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 02:16:04,117 - Model - INFO - Epoch 252 (252/300):
+2022-12-03 02:23:22,633 - Model - INFO - Train Instance Accuracy: 99.82, Loss: 0.620852
+2022-12-03 02:26:59,887 - Model - INFO - Test Single Accuracy: 84.84
+2022-12-03 02:26:59,887 - Model - INFO - Best Single Accuracy: 85.22
+2022-12-03 02:26:59,887 - Model - INFO - Test Vote Accuracy: 85.05
+2022-12-03 02:26:59,888 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 02:26:59,888 - Model - INFO - Test Class Accuracy: 83.70
+2022-12-03 02:26:59,888 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 02:26:59,888 - Model - INFO - Epoch 253 (253/300):
+2022-12-03 02:34:17,971 - Model - INFO - Train Instance Accuracy: 99.84, Loss: 0.620422
+2022-12-03 02:37:55,592 - Model - INFO - Test Single Accuracy: 83.87
+2022-12-03 02:37:55,593 - Model - INFO - Best Single Accuracy: 85.22
+2022-12-03 02:37:55,593 - Model - INFO - Test Vote Accuracy: 84.56
+2022-12-03 02:37:55,593 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 02:37:55,593 - Model - INFO - Test Class Accuracy: 82.69
+2022-12-03 02:37:55,593 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 02:37:55,593 - Model - INFO - Epoch 254 (254/300):
+2022-12-03 02:45:16,053 - Model - INFO - Train Instance Accuracy: 99.82, Loss: 0.621269
+2022-12-03 02:48:53,981 - Model - INFO - Test Single Accuracy: 83.66
+2022-12-03 02:48:53,981 - Model - INFO - Best Single Accuracy: 85.22
+2022-12-03 02:48:53,982 - Model - INFO - Test Vote Accuracy: 84.70
+2022-12-03 02:48:53,982 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 02:48:53,982 - Model - INFO - Test Class Accuracy: 83.12
+2022-12-03 02:48:53,982 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 02:48:53,982 - Model - INFO - Epoch 255 (255/300):
+2022-12-03 02:56:10,458 - Model - INFO - Train Instance Accuracy: 99.76, Loss: 0.621910
+2022-12-03 02:59:47,583 - Model - INFO - Test Single Accuracy: 85.29
+2022-12-03 02:59:47,584 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 02:59:47,584 - Model - INFO - Test Vote Accuracy: 84.98
+2022-12-03 02:59:47,584 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 02:59:47,584 - Model - INFO - Test Class Accuracy: 83.55
+2022-12-03 02:59:47,584 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 02:59:47,584 - Model - INFO - Epoch 256 (256/300):
+2022-12-03 03:07:07,986 - Model - INFO - Train Instance Accuracy: 99.91, Loss: 0.619122
+2022-12-03 03:10:44,253 - Model - INFO - Test Single Accuracy: 84.66
+2022-12-03 03:10:44,253 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 03:10:44,253 - Model - INFO - Test Vote Accuracy: 85.05
+2022-12-03 03:10:44,254 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 03:10:44,254 - Model - INFO - Test Class Accuracy: 83.81
+2022-12-03 03:10:44,254 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 03:10:44,254 - Model - INFO - Epoch 257 (257/300):
+2022-12-03 03:18:02,392 - Model - INFO - Train Instance Accuracy: 99.83, Loss: 0.621766
+2022-12-03 03:21:41,483 - Model - INFO - Test Single Accuracy: 84.70
+2022-12-03 03:21:41,483 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 03:21:41,483 - Model - INFO - Test Vote Accuracy: 85.46
+2022-12-03 03:21:41,483 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 03:21:41,483 - Model - INFO - Test Class Accuracy: 83.80
+2022-12-03 03:21:41,483 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 03:21:41,483 - Model - INFO - Epoch 258 (258/300):
+2022-12-03 03:29:01,054 - Model - INFO - Train Instance Accuracy: 99.86, Loss: 0.619967
+2022-12-03 03:32:39,146 - Model - INFO - Test Single Accuracy: 84.56
+2022-12-03 03:32:39,147 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 03:32:39,147 - Model - INFO - Test Vote Accuracy: 85.39
+2022-12-03 03:32:39,147 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 03:32:39,147 - Model - INFO - Test Class Accuracy: 84.15
+2022-12-03 03:32:39,147 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 03:32:39,148 - Model - INFO - Epoch 259 (259/300):
+2022-12-03 03:39:58,374 - Model - INFO - Train Instance Accuracy: 99.80, Loss: 0.621582
+2022-12-03 03:43:35,936 - Model - INFO - Test Single Accuracy: 84.25
+2022-12-03 03:43:35,937 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 03:43:35,937 - Model - INFO - Test Vote Accuracy: 84.87
+2022-12-03 03:43:35,937 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 03:43:35,937 - Model - INFO - Test Class Accuracy: 82.98
+2022-12-03 03:43:35,937 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 03:43:35,937 - Model - INFO - Epoch 260 (260/300):
+2022-12-03 03:50:54,185 - Model - INFO - Train Instance Accuracy: 99.86, Loss: 0.620065
+2022-12-03 03:54:32,455 - Model - INFO - Test Single Accuracy: 84.63
+2022-12-03 03:54:32,456 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 03:54:32,456 - Model - INFO - Test Vote Accuracy: 85.05
+2022-12-03 03:54:32,456 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 03:54:32,456 - Model - INFO - Test Class Accuracy: 83.82
+2022-12-03 03:54:32,456 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 03:54:32,456 - Model - INFO - Epoch 261 (261/300):
+2022-12-03 04:01:50,274 - Model - INFO - Train Instance Accuracy: 99.88, Loss: 0.619495
+2022-12-03 04:05:27,963 - Model - INFO - Test Single Accuracy: 84.52
+2022-12-03 04:05:27,963 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 04:05:27,963 - Model - INFO - Test Vote Accuracy: 85.08
+2022-12-03 04:05:27,964 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 04:05:27,964 - Model - INFO - Test Class Accuracy: 83.60
+2022-12-03 04:05:27,964 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 04:05:27,964 - Model - INFO - Epoch 262 (262/300):
+2022-12-03 04:12:36,437 - Model - INFO - Train Instance Accuracy: 99.86, Loss: 0.619728
+2022-12-03 04:15:46,690 - Model - INFO - Test Single Accuracy: 83.83
+2022-12-03 04:15:46,690 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 04:15:46,690 - Model - INFO - Test Vote Accuracy: 84.84
+2022-12-03 04:15:46,691 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 04:15:46,691 - Model - INFO - Test Class Accuracy: 83.20
+2022-12-03 04:15:46,691 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 04:15:46,691 - Model - INFO - Epoch 263 (263/300):
+2022-12-03 04:22:29,372 - Model - INFO - Train Instance Accuracy: 99.87, Loss: 0.619778
+2022-12-03 04:27:12,531 - Model - INFO - Test Single Accuracy: 84.07
+2022-12-03 04:27:12,532 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 04:27:12,532 - Model - INFO - Test Vote Accuracy: 84.77
+2022-12-03 04:27:12,532 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 04:27:12,532 - Model - INFO - Test Class Accuracy: 83.52
+2022-12-03 04:27:12,532 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 04:27:12,532 - Model - INFO - Epoch 264 (264/300):
+2022-12-03 04:35:03,734 - Model - INFO - Train Instance Accuracy: 99.82, Loss: 0.620191
+2022-12-03 04:39:17,040 - Model - INFO - Test Single Accuracy: 83.87
+2022-12-03 04:39:17,041 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 04:39:17,041 - Model - INFO - Test Vote Accuracy: 84.80
+2022-12-03 04:39:17,041 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 04:39:17,041 - Model - INFO - Test Class Accuracy: 82.86
+2022-12-03 04:39:17,041 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 04:39:17,041 - Model - INFO - Epoch 265 (265/300):
+2022-12-03 04:49:12,317 - Model - INFO - Train Instance Accuracy: 99.86, Loss: 0.619887
+2022-12-03 04:54:19,311 - Model - INFO - Test Single Accuracy: 84.07
+2022-12-03 04:54:19,311 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 04:54:19,312 - Model - INFO - Test Vote Accuracy: 85.22
+2022-12-03 04:54:19,312 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 04:54:19,312 - Model - INFO - Test Class Accuracy: 83.36
+2022-12-03 04:54:19,312 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 04:54:19,312 - Model - INFO - Epoch 266 (266/300):
+2022-12-03 05:04:38,528 - Model - INFO - Train Instance Accuracy: 99.82, Loss: 0.619828
+2022-12-03 05:09:47,895 - Model - INFO - Test Single Accuracy: 84.42
+2022-12-03 05:09:47,895 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 05:09:47,895 - Model - INFO - Test Vote Accuracy: 85.70
+2022-12-03 05:09:47,895 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 05:09:47,895 - Model - INFO - Test Class Accuracy: 84.10
+2022-12-03 05:09:47,895 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 05:09:47,896 - Model - INFO - Epoch 267 (267/300):
+2022-12-03 05:20:08,892 - Model - INFO - Train Instance Accuracy: 99.81, Loss: 0.620326
+2022-12-03 05:25:17,363 - Model - INFO - Test Single Accuracy: 84.84
+2022-12-03 05:25:17,364 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 05:25:17,364 - Model - INFO - Test Vote Accuracy: 85.60
+2022-12-03 05:25:17,364 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 05:25:17,364 - Model - INFO - Test Class Accuracy: 84.03
+2022-12-03 05:25:17,364 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 05:25:17,365 - Model - INFO - Epoch 268 (268/300):
+2022-12-03 05:35:33,510 - Model - INFO - Train Instance Accuracy: 99.86, Loss: 0.619235
+2022-12-03 05:40:42,561 - Model - INFO - Test Single Accuracy: 84.77
+2022-12-03 05:40:42,562 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 05:40:42,562 - Model - INFO - Test Vote Accuracy: 85.18
+2022-12-03 05:40:42,562 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 05:40:42,562 - Model - INFO - Test Class Accuracy: 83.43
+2022-12-03 05:40:42,563 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 05:40:42,563 - Model - INFO - Epoch 269 (269/300):
+2022-12-03 05:51:00,745 - Model - INFO - Train Instance Accuracy: 99.79, Loss: 0.621223
+2022-12-03 05:56:09,145 - Model - INFO - Test Single Accuracy: 84.25
+2022-12-03 05:56:09,146 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 05:56:09,146 - Model - INFO - Test Vote Accuracy: 84.80
+2022-12-03 05:56:09,146 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 05:56:09,146 - Model - INFO - Test Class Accuracy: 83.11
+2022-12-03 05:56:09,146 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 05:56:09,146 - Model - INFO - Epoch 270 (270/300):
+2022-12-03 06:06:27,958 - Model - INFO - Train Instance Accuracy: 99.84, Loss: 0.619834
+2022-12-03 06:11:36,869 - Model - INFO - Test Single Accuracy: 83.97
+2022-12-03 06:11:36,869 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 06:11:36,869 - Model - INFO - Test Vote Accuracy: 85.18
+2022-12-03 06:11:36,870 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 06:11:36,870 - Model - INFO - Test Class Accuracy: 83.56
+2022-12-03 06:11:36,870 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 06:11:36,870 - Model - INFO - Epoch 271 (271/300):
+2022-12-03 06:21:52,960 - Model - INFO - Train Instance Accuracy: 99.82, Loss: 0.620689
+2022-12-03 06:27:02,667 - Model - INFO - Test Single Accuracy: 84.42
+2022-12-03 06:27:02,668 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 06:27:02,668 - Model - INFO - Test Vote Accuracy: 85.11
+2022-12-03 06:27:02,668 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 06:27:02,668 - Model - INFO - Test Class Accuracy: 83.44
+2022-12-03 06:27:02,668 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 06:27:02,668 - Model - INFO - Epoch 272 (272/300):
+2022-12-03 06:37:17,189 - Model - INFO - Train Instance Accuracy: 99.88, Loss: 0.619657
+2022-12-03 06:42:26,051 - Model - INFO - Test Single Accuracy: 84.59
+2022-12-03 06:42:26,051 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 06:42:26,052 - Model - INFO - Test Vote Accuracy: 85.50
+2022-12-03 06:42:26,052 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 06:42:26,052 - Model - INFO - Test Class Accuracy: 83.91
+2022-12-03 06:42:26,052 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 06:42:26,052 - Model - INFO - Epoch 273 (273/300):
+2022-12-03 06:52:41,884 - Model - INFO - Train Instance Accuracy: 99.90, Loss: 0.619106
+2022-12-03 06:57:50,983 - Model - INFO - Test Single Accuracy: 85.08
+2022-12-03 06:57:50,983 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 06:57:50,983 - Model - INFO - Test Vote Accuracy: 84.87
+2022-12-03 06:57:50,984 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 06:57:50,984 - Model - INFO - Test Class Accuracy: 83.44
+2022-12-03 06:57:50,984 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 06:57:50,984 - Model - INFO - Epoch 274 (274/300):
+2022-12-03 07:08:05,467 - Model - INFO - Train Instance Accuracy: 99.82, Loss: 0.620855
+2022-12-03 07:13:14,766 - Model - INFO - Test Single Accuracy: 84.66
+2022-12-03 07:13:14,766 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 07:13:14,766 - Model - INFO - Test Vote Accuracy: 85.60
+2022-12-03 07:13:14,766 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 07:13:14,766 - Model - INFO - Test Class Accuracy: 84.12
+2022-12-03 07:13:14,766 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 07:13:14,766 - Model - INFO - Epoch 275 (275/300):
+2022-12-03 07:23:25,639 - Model - INFO - Train Instance Accuracy: 99.89, Loss: 0.620061
+2022-12-03 07:28:33,677 - Model - INFO - Test Single Accuracy: 83.90
+2022-12-03 07:28:33,678 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 07:28:33,678 - Model - INFO - Test Vote Accuracy: 85.05
+2022-12-03 07:28:33,678 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 07:28:33,678 - Model - INFO - Test Class Accuracy: 83.73
+2022-12-03 07:28:33,678 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 07:28:33,679 - Model - INFO - Epoch 276 (276/300):
+2022-12-03 07:38:49,906 - Model - INFO - Train Instance Accuracy: 99.85, Loss: 0.619752
+2022-12-03 07:43:58,394 - Model - INFO - Test Single Accuracy: 83.97
+2022-12-03 07:43:58,395 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 07:43:58,395 - Model - INFO - Test Vote Accuracy: 84.46
+2022-12-03 07:43:58,395 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 07:43:58,395 - Model - INFO - Test Class Accuracy: 83.26
+2022-12-03 07:43:58,395 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 07:43:58,396 - Model - INFO - Epoch 277 (277/300):
+2022-12-03 07:54:12,031 - Model - INFO - Train Instance Accuracy: 99.84, Loss: 0.621155
+2022-12-03 07:59:20,010 - Model - INFO - Test Single Accuracy: 84.56
+2022-12-03 07:59:20,011 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 07:59:20,011 - Model - INFO - Test Vote Accuracy: 85.29
+2022-12-03 07:59:20,011 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 07:59:20,011 - Model - INFO - Test Class Accuracy: 83.56
+2022-12-03 07:59:20,012 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 07:59:20,012 - Model - INFO - Epoch 278 (278/300):
+2022-12-03 08:09:38,901 - Model - INFO - Train Instance Accuracy: 99.82, Loss: 0.621656
+2022-12-03 08:14:47,805 - Model - INFO - Test Single Accuracy: 84.80
+2022-12-03 08:14:47,806 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 08:14:47,806 - Model - INFO - Test Vote Accuracy: 85.15
+2022-12-03 08:14:47,806 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 08:14:47,806 - Model - INFO - Test Class Accuracy: 83.75
+2022-12-03 08:14:47,806 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 08:14:47,807 - Model - INFO - Epoch 279 (279/300):
+2022-12-03 08:24:45,579 - Model - INFO - Train Instance Accuracy: 99.82, Loss: 0.620860
+2022-12-03 08:29:28,801 - Model - INFO - Test Single Accuracy: 84.39
+2022-12-03 08:29:28,801 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 08:29:28,801 - Model - INFO - Test Vote Accuracy: 85.39
+2022-12-03 08:29:28,801 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 08:29:28,801 - Model - INFO - Test Class Accuracy: 83.73
+2022-12-03 08:29:28,801 - Model - INFO - Best Class Accuracy: 84.40
+2022-12-03 08:29:28,801 - Model - INFO - Epoch 280 (280/300):
+2022-12-03 08:38:58,310 - Model - INFO - Train Instance Accuracy: 99.84, Loss: 0.620204
+2022-12-03 08:43:40,795 - Model - INFO - Test Single Accuracy: 84.87
+2022-12-03 08:43:40,796 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 08:43:40,796 - Model - INFO - Test Vote Accuracy: 85.74
+2022-12-03 08:43:40,796 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 08:43:40,796 - Model - INFO - Test Class Accuracy: 84.52
+2022-12-03 08:43:40,796 - Model - INFO - Best Class Accuracy: 84.52
+2022-12-03 08:43:40,796 - Model - INFO - Epoch 281 (281/300):
+2022-12-03 08:53:09,398 - Model - INFO - Train Instance Accuracy: 99.87, Loss: 0.620107
+2022-12-03 08:57:51,313 - Model - INFO - Test Single Accuracy: 84.39
+2022-12-03 08:57:51,314 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 08:57:51,314 - Model - INFO - Test Vote Accuracy: 85.18
+2022-12-03 08:57:51,314 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 08:57:51,314 - Model - INFO - Test Class Accuracy: 83.84
+2022-12-03 08:57:51,314 - Model - INFO - Best Class Accuracy: 84.52
+2022-12-03 08:57:51,314 - Model - INFO - Epoch 282 (282/300):
+2022-12-03 09:07:56,419 - Model - INFO - Train Instance Accuracy: 99.84, Loss: 0.619047
+2022-12-03 09:13:05,317 - Model - INFO - Test Single Accuracy: 84.32
+2022-12-03 09:13:05,317 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 09:13:05,318 - Model - INFO - Test Vote Accuracy: 85.22
+2022-12-03 09:13:05,318 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 09:13:05,318 - Model - INFO - Test Class Accuracy: 83.74
+2022-12-03 09:13:05,318 - Model - INFO - Best Class Accuracy: 84.52
+2022-12-03 09:13:05,318 - Model - INFO - Epoch 283 (283/300):
+2022-12-03 09:23:22,714 - Model - INFO - Train Instance Accuracy: 99.83, Loss: 0.619956
+2022-12-03 09:28:31,144 - Model - INFO - Test Single Accuracy: 84.52
+2022-12-03 09:28:31,145 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 09:28:31,145 - Model - INFO - Test Vote Accuracy: 85.50
+2022-12-03 09:28:31,145 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 09:28:31,145 - Model - INFO - Test Class Accuracy: 83.83
+2022-12-03 09:28:31,145 - Model - INFO - Best Class Accuracy: 84.52
+2022-12-03 09:28:31,145 - Model - INFO - Epoch 284 (284/300):
+2022-12-03 09:38:50,755 - Model - INFO - Train Instance Accuracy: 99.85, Loss: 0.619217
+2022-12-03 09:44:01,210 - Model - INFO - Test Single Accuracy: 84.04
+2022-12-03 09:44:01,211 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 09:44:01,211 - Model - INFO - Test Vote Accuracy: 84.59
+2022-12-03 09:44:01,211 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 09:44:01,211 - Model - INFO - Test Class Accuracy: 83.07
+2022-12-03 09:44:01,211 - Model - INFO - Best Class Accuracy: 84.52
+2022-12-03 09:44:01,212 - Model - INFO - Epoch 285 (285/300):
+2022-12-03 09:54:19,655 - Model - INFO - Train Instance Accuracy: 99.86, Loss: 0.619213
+2022-12-03 09:59:31,632 - Model - INFO - Test Single Accuracy: 84.25
+2022-12-03 09:59:31,633 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 09:59:31,633 - Model - INFO - Test Vote Accuracy: 85.15
+2022-12-03 09:59:31,633 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 09:59:31,633 - Model - INFO - Test Class Accuracy: 83.68
+2022-12-03 09:59:31,633 - Model - INFO - Best Class Accuracy: 84.52
+2022-12-03 09:59:31,633 - Model - INFO - Epoch 286 (286/300):
+2022-12-03 10:10:02,526 - Model - INFO - Train Instance Accuracy: 99.81, Loss: 0.620173
+2022-12-03 10:15:10,948 - Model - INFO - Test Single Accuracy: 84.77
+2022-12-03 10:15:10,948 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 10:15:10,948 - Model - INFO - Test Vote Accuracy: 84.98
+2022-12-03 10:15:10,948 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 10:15:10,948 - Model - INFO - Test Class Accuracy: 83.71
+2022-12-03 10:15:10,948 - Model - INFO - Best Class Accuracy: 84.52
+2022-12-03 10:15:10,948 - Model - INFO - Epoch 287 (287/300):
+2022-12-03 10:25:40,332 - Model - INFO - Train Instance Accuracy: 99.83, Loss: 0.620120
+2022-12-03 10:30:49,372 - Model - INFO - Test Single Accuracy: 84.73
+2022-12-03 10:30:49,373 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 10:30:49,373 - Model - INFO - Test Vote Accuracy: 85.25
+2022-12-03 10:30:49,373 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 10:30:49,373 - Model - INFO - Test Class Accuracy: 83.28
+2022-12-03 10:30:49,373 - Model - INFO - Best Class Accuracy: 84.52
+2022-12-03 10:30:49,374 - Model - INFO - Epoch 288 (288/300):
+2022-12-03 10:41:05,822 - Model - INFO - Train Instance Accuracy: 99.89, Loss: 0.619755
+2022-12-03 10:46:14,482 - Model - INFO - Test Single Accuracy: 84.14
+2022-12-03 10:46:14,482 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 10:46:14,482 - Model - INFO - Test Vote Accuracy: 84.63
+2022-12-03 10:46:14,482 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 10:46:14,482 - Model - INFO - Test Class Accuracy: 83.11
+2022-12-03 10:46:14,482 - Model - INFO - Best Class Accuracy: 84.52
+2022-12-03 10:46:14,482 - Model - INFO - Epoch 289 (289/300):
+2022-12-03 10:56:30,139 - Model - INFO - Train Instance Accuracy: 99.78, Loss: 0.621652
+2022-12-03 11:01:37,789 - Model - INFO - Test Single Accuracy: 84.39
+2022-12-03 11:01:37,790 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 11:01:37,790 - Model - INFO - Test Vote Accuracy: 85.36
+2022-12-03 11:01:37,790 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 11:01:37,790 - Model - INFO - Test Class Accuracy: 84.09
+2022-12-03 11:01:37,790 - Model - INFO - Best Class Accuracy: 84.52
+2022-12-03 11:01:37,790 - Model - INFO - Epoch 290 (290/300):
+2022-12-03 11:11:55,172 - Model - INFO - Train Instance Accuracy: 99.82, Loss: 0.620684
+2022-12-03 11:17:04,539 - Model - INFO - Test Single Accuracy: 83.87
+2022-12-03 11:17:04,539 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 11:17:04,540 - Model - INFO - Test Vote Accuracy: 85.08
+2022-12-03 11:17:04,540 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 11:17:04,540 - Model - INFO - Test Class Accuracy: 83.50
+2022-12-03 11:17:04,540 - Model - INFO - Best Class Accuracy: 84.52
+2022-12-03 11:17:04,540 - Model - INFO - Epoch 291 (291/300):
+2022-12-03 11:27:39,946 - Model - INFO - Train Instance Accuracy: 99.78, Loss: 0.621145
+2022-12-03 11:32:52,878 - Model - INFO - Test Single Accuracy: 85.29
+2022-12-03 11:32:52,878 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 11:32:52,878 - Model - INFO - Test Vote Accuracy: 85.46
+2022-12-03 11:32:52,878 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 11:32:52,878 - Model - INFO - Test Class Accuracy: 83.90
+2022-12-03 11:32:52,878 - Model - INFO - Best Class Accuracy: 84.52
+2022-12-03 11:32:52,878 - Model - INFO - Epoch 292 (292/300):
+2022-12-03 11:44:16,366 - Model - INFO - Train Instance Accuracy: 99.81, Loss: 0.619730
+2022-12-03 11:49:26,330 - Model - INFO - Test Single Accuracy: 84.66
+2022-12-03 11:49:26,331 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 11:49:26,331 - Model - INFO - Test Vote Accuracy: 85.74
+2022-12-03 11:49:26,331 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 11:49:26,331 - Model - INFO - Test Class Accuracy: 84.14
+2022-12-03 11:49:26,331 - Model - INFO - Best Class Accuracy: 84.52
+2022-12-03 11:49:26,332 - Model - INFO - Epoch 293 (293/300):
+2022-12-03 11:59:58,236 - Model - INFO - Train Instance Accuracy: 99.82, Loss: 0.619271
+2022-12-03 12:05:06,953 - Model - INFO - Test Single Accuracy: 83.80
+2022-12-03 12:05:06,954 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 12:05:06,954 - Model - INFO - Test Vote Accuracy: 84.56
+2022-12-03 12:05:06,954 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 12:05:06,954 - Model - INFO - Test Class Accuracy: 83.20
+2022-12-03 12:05:06,954 - Model - INFO - Best Class Accuracy: 84.52
+2022-12-03 12:05:06,955 - Model - INFO - Epoch 294 (294/300):
+2022-12-03 12:15:25,227 - Model - INFO - Train Instance Accuracy: 99.82, Loss: 0.620722
+2022-12-03 12:20:35,105 - Model - INFO - Test Single Accuracy: 84.63
+2022-12-03 12:20:35,105 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 12:20:35,105 - Model - INFO - Test Vote Accuracy: 85.60
+2022-12-03 12:20:35,105 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 12:20:35,106 - Model - INFO - Test Class Accuracy: 84.07
+2022-12-03 12:20:35,106 - Model - INFO - Best Class Accuracy: 84.52
+2022-12-03 12:20:35,106 - Model - INFO - Epoch 295 (295/300):
+2022-12-03 12:30:52,112 - Model - INFO - Train Instance Accuracy: 99.84, Loss: 0.618203
+2022-12-03 12:36:00,280 - Model - INFO - Test Single Accuracy: 84.63
+2022-12-03 12:36:00,280 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 12:36:00,280 - Model - INFO - Test Vote Accuracy: 85.29
+2022-12-03 12:36:00,280 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 12:36:00,280 - Model - INFO - Test Class Accuracy: 84.09
+2022-12-03 12:36:00,280 - Model - INFO - Best Class Accuracy: 84.52
+2022-12-03 12:36:00,280 - Model - INFO - Epoch 296 (296/300):
+2022-12-03 12:45:48,352 - Model - INFO - Train Instance Accuracy: 99.88, Loss: 0.618595
+2022-12-03 12:50:31,883 - Model - INFO - Test Single Accuracy: 84.46
+2022-12-03 12:50:31,884 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 12:50:31,884 - Model - INFO - Test Vote Accuracy: 85.32
+2022-12-03 12:50:31,884 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 12:50:31,884 - Model - INFO - Test Class Accuracy: 83.73
+2022-12-03 12:50:31,884 - Model - INFO - Best Class Accuracy: 84.52
+2022-12-03 12:50:31,884 - Model - INFO - Epoch 297 (297/300):
+2022-12-03 13:00:02,279 - Model - INFO - Train Instance Accuracy: 99.85, Loss: 0.618747
+2022-12-03 13:04:58,875 - Model - INFO - Test Single Accuracy: 84.56
+2022-12-03 13:04:58,876 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 13:04:58,876 - Model - INFO - Test Vote Accuracy: 85.43
+2022-12-03 13:04:58,876 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 13:04:58,876 - Model - INFO - Test Class Accuracy: 83.94
+2022-12-03 13:04:58,876 - Model - INFO - Best Class Accuracy: 84.52
+2022-12-03 13:04:58,876 - Model - INFO - Epoch 298 (298/300):
+2022-12-03 13:14:41,298 - Model - INFO - Train Instance Accuracy: 99.89, Loss: 0.618654
+2022-12-03 13:19:37,959 - Model - INFO - Test Single Accuracy: 84.59
+2022-12-03 13:19:37,960 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 13:19:37,960 - Model - INFO - Test Vote Accuracy: 85.63
+2022-12-03 13:19:37,960 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 13:19:37,960 - Model - INFO - Test Class Accuracy: 84.02
+2022-12-03 13:19:37,961 - Model - INFO - Best Class Accuracy: 84.52
+2022-12-03 13:19:37,961 - Model - INFO - Epoch 299 (299/300):
+2022-12-03 13:30:27,320 - Model - INFO - Train Instance Accuracy: 99.75, Loss: 0.620523
+2022-12-03 13:36:03,576 - Model - INFO - Test Single Accuracy: 84.91
+2022-12-03 13:36:03,576 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 13:36:03,577 - Model - INFO - Test Vote Accuracy: 85.46
+2022-12-03 13:36:03,577 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 13:36:03,577 - Model - INFO - Test Class Accuracy: 83.99
+2022-12-03 13:36:03,577 - Model - INFO - Best Class Accuracy: 84.52
+2022-12-03 13:36:03,577 - Model - INFO - Epoch 300 (300/300):
+2022-12-03 13:46:50,673 - Model - INFO - Train Instance Accuracy: 99.86, Loss: 0.618507
+2022-12-03 13:52:55,256 - Model - INFO - Test Single Accuracy: 84.73
+2022-12-03 13:52:55,256 - Model - INFO - Best Single Accuracy: 85.29
+2022-12-03 13:52:55,256 - Model - INFO - Test Vote Accuracy: 85.25
+2022-12-03 13:52:55,256 - Model - INFO - Best Vote Accuracy: 85.84
+2022-12-03 13:52:55,257 - Model - INFO - Test Class Accuracy: 84.06
+2022-12-03 13:52:55,257 - Model - INFO - Best Class Accuracy: 84.52
+2022-12-03 13:52:55,257 - Model - INFO - End of training...
